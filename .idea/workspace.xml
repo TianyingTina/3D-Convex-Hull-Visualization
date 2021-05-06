@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afe07176-c022-463d-8b54-b0731e275bab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/gift_wrapping_animation.html" afterPath="$PROJECT_DIR$/html/gift_wrapping_animation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/incremental_construction_animation.html" afterPath="$PROJECT_DIR$/html/incremental_construction_animation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/init_points_and_run_brute_force.html" afterPath="$PROJECT_DIR$/html/init_points_and_run_brute_force.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/quick_hull_animation.html" afterPath="$PROJECT_DIR$/html/quick_hull_animation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/simplex_incremental_construction_animation.html" afterPath="$PROJECT_DIR$/html/simplex_incremental_construction_animation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/brute_force_animation.js" afterPath="$PROJECT_DIR$/scripts/brute_force_animation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/generate_random_points.js" afterPath="$PROJECT_DIR$/scripts/generate_random_points.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/gift_wrapping_animation.js" afterPath="$PROJECT_DIR$/scripts/gift_wrapping_animation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/incremental_construction_animation.js" afterPath="$PROJECT_DIR$/scripts/incremental_construction_animation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/quick_hull_animation.js" afterPath="$PROJECT_DIR$/scripts/quick_hull_animation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/simplex_incremental_construction_animation.js" afterPath="$PROJECT_DIR$/scripts/simplex_incremental_construction_animation.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -64,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gift_wrapping_animation.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gift_wrapping_animation.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/gift_wrapping_animation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="100">
+              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
               <folding>
                 <element signature="n#!!block;n#construct_states#0" expanded="false" />
                 <element signature="n#!!block;n#init#0" expanded="false" />
@@ -91,6 +84,105 @@
                 <element signature="n#!!block;n#vlen#0" expanded="false" />
                 <element signature="n#!!block;n#checkCollinear#0" expanded="false" />
                 <element signature="n#!!block;n#cross#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="incremental_construction_animation.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/incremental_construction_animation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="860">
+              <caret line="333" column="1" lean-forward="true" selection-start-line="333" selection-start-column="1" selection-end-line="333" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#47#0" expanded="false" />
+                <element signature="e#286#316#0" expanded="false" />
+                <element signature="n#!!block;n#construct_states#0" expanded="false" />
+                <element signature="n#!!block;n#triangles#0" expanded="false" />
+                <element signature="e#3371#3393#0" expanded="false" />
+                <element signature="n#!!block;n#init#0" expanded="false" />
+                <element signature="n#!!block;n#dispose_current_scence#0" expanded="false" />
+                <element signature="n#!!block;n#addPoints#0" expanded="false" />
+                <element signature="n#!!block;n#drawTriangles#0" expanded="false" />
+                <element signature="n#!!block;n#animate#0" expanded="false" />
+                <element signature="n#!!block;n#init_F#0" expanded="false" />
+                <element signature="e#7725#7751#0" expanded="false" />
+                <element signature="n#!!block;n#init_g#0" expanded="false" />
+                <element signature="e#7870#7986#0" expanded="false" />
+                <element signature="n#!!block;n#dblcmp#0" expanded="false" />
+                <element signature="n#!!block;n#deal#0" expanded="false" />
+                <element signature="n#!!block;n#dfs#0" expanded="false" />
+                <element signature="n#!!block;n#dotProduct#0" expanded="false" />
+                <element signature="n#!!block;n#cross#0" expanded="false" />
+                <element signature="n#!!block;n#vectorV#0" expanded="false" />
+                <element signature="n#!!block;n#checkCollinear#0" expanded="false" />
+                <element signature="n#!!block;n#check_validation#0" expanded="false" />
+                <element signature="n#!!block;n#swap_points#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quick_hull_animation.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/quick_hull_animation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1000">
+              <caret line="383" column="1" lean-forward="false" selection-start-line="383" selection-start-column="1" selection-end-line="383" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#47#0" expanded="false" />
+                <element signature="e#279#309#0" expanded="false" />
+                <element signature="n#!!block;n#construct_states#0" expanded="false" />
+                <element signature="n#!!block;n#triangles#0" expanded="false" />
+                <element signature="e#3648#3670#0" expanded="false" />
+                <element signature="n#!!block;n#pre_process_points#0" expanded="false" />
+                <element signature="n#!!block;n#pre_process_triangle#0" expanded="false" />
+                <element signature="n#!!block;n#init#0" expanded="false" />
+                <element signature="n#!!block;n#dispose_current_scence#0" expanded="false" />
+                <element signature="n#!!block;n#addPoints#0" expanded="false" />
+                <element signature="n#!!block;n#drawTriangles#0" expanded="false" />
+                <element signature="n#!!block;n#animate#0" expanded="false" />
+                <element signature="n#!!block;n#init_F#0" expanded="false" />
+                <element signature="e#9288#9314#0" expanded="false" />
+                <element signature="n#!!block;n#init_g#0" expanded="false" />
+                <element signature="e#9434#9550#0" expanded="false" />
+                <element signature="n#!!block;n#dblcmp#0" expanded="false" />
+                <element signature="n#!!block;n#deal#0" expanded="false" />
+                <element signature="n#!!block;n#dfs#0" expanded="false" />
+                <element signature="n#!!block;n#dotProduct#0" expanded="false" />
+                <element signature="n#!!block;n#cross#0" expanded="false" />
+                <element signature="n#!!block;n#vectorV#0" expanded="false" />
+                <element signature="n#!!block;n#checkCollinear#0" expanded="false" />
+                <element signature="n#!!block;n#check_validation#0" expanded="false" />
+                <element signature="n#!!block;n#swap_points#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simplex_incremental_construction_animation.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/simplex_incremental_construction_animation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="137" column="0" lean-forward="true" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!block;n#init_triangledict#0" expanded="false" />
+                <element signature="n#!!block;n#construct_states#0" expanded="false" />
+                <element signature="n#!!block;n#triangles#0" expanded="false" />
+                <element signature="n#!!block;n#init#0" expanded="false" />
+                <element signature="n#!!block;n#dispose_current_scence#0" expanded="false" />
+                <element signature="n#!!block;n#addPoints#0" expanded="false" />
+                <element signature="n#!!block;n#drawTriangle#0" expanded="false" />
+                <element signature="n#!!block;n#drawTriangles#0" expanded="false" />
+                <element signature="n#!!block;n#animate#0" expanded="false" />
+                <element signature="n#!!block;n#vlen#0" expanded="false" />
+                <element signature="n#!!block;n#dblcmp#0" expanded="false" />
+                <element signature="n#!!block;n#dotProduct#0" expanded="false" />
+                <element signature="n#!!block;n#cross#0" expanded="false" />
+                <element signature="n#!!block;n#vectorV#0" expanded="false" />
+                <element signature="n#!!block;n#checkCollinear#0" expanded="false" />
+                <element signature="n#!!block;n#check_validation#0" expanded="false" />
+                <element signature="n#!!block;n#swap_points#0" expanded="false" />
+                <element signature="n#!!block;n#unique#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -159,10 +251,7 @@
         <option value="$PROJECT_DIR$/scripts/test_trilist.js" />
         <option value="$PROJECT_DIR$/scripts/quick_hull.js" />
         <option value="$PROJECT_DIR$/scripts/simplex_incremental_construction.js" />
-        <option value="$PROJECT_DIR$/scripts/simplex_incremental_construction_animation.js" />
         <option value="$PROJECT_DIR$/scripts/incremental_construction.js" />
-        <option value="$PROJECT_DIR$/scripts/quick_hull_animation.js" />
-        <option value="$PROJECT_DIR$/scripts/incremental_construction_animation.js" />
         <option value="$PROJECT_DIR$/html/my_page.html" />
         <option value="$PROJECT_DIR$/scripts/bruteforce.js" />
         <option value="$PROJECT_DIR$/scripts/gift_wrapping.js" />
@@ -174,6 +263,9 @@
         <option value="$PROJECT_DIR$/scripts/brute_force_animation.js" />
         <option value="$PROJECT_DIR$/scripts/generate_random_points.js" />
         <option value="$PROJECT_DIR$/scripts/gift_wrapping_animation.js" />
+        <option value="$PROJECT_DIR$/scripts/incremental_construction_animation.js" />
+        <option value="$PROJECT_DIR$/scripts/quick_hull_animation.js" />
+        <option value="$PROJECT_DIR$/scripts/simplex_incremental_construction_animation.js" />
       </list>
     </option>
   </component>
@@ -384,12 +476,12 @@
       <workItem from="1619707021423" duration="33046000" />
       <workItem from="1619920622124" duration="3202000" />
       <workItem from="1620081525918" duration="62871000" />
-      <workItem from="1620338644015" duration="649000" />
+      <workItem from="1620338644015" duration="1171000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111181000" />
+    <option name="totallyTimeSpent" value="111703000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="969" extended-state="6" />
@@ -421,7 +513,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="12" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -448,22 +540,22 @@
           <caret line="179" column="57" lean-forward="true" selection-start-line="179" selection-start-column="57" selection-end-line="179" selection-end-column="57" />
           <folding>
             <element signature="e#0#47#0" expanded="false" />
-            <element signature="e#279#309#0" expanded="false" />
+            <element signature="e#286#316#0" expanded="false" />
             <element signature="n#!!block;n#construct_states#0" expanded="false" />
             <element signature="n#!!block;n#triangles#0" expanded="false" />
-            <element signature="e#3692#3714#0" expanded="false" />
+            <element signature="e#3371#3393#0" expanded="false" />
             <element signature="n#!!block;n#init#0" expanded="false" />
             <element signature="n#!!block;n#dispose_current_scence#0" expanded="false" />
             <element signature="n#!!block;n#addPoints#0" expanded="false" />
             <element signature="n#!!block;n#drawTriangles#0" expanded="false" />
             <element signature="n#!!block;n#animate#0" expanded="false" />
             <element signature="n#!!block;n#init_F#0" expanded="false" />
-            <element signature="e#8300#8334#0" expanded="false" />
+            <element signature="e#7725#7751#0" expanded="false" />
             <element signature="n#!!block;n#init_g#0" expanded="false" />
-            <element signature="e#8469#8605#0" expanded="false" />
-            <element signature="e#8617#8649#0" expanded="false" />
+            <element signature="e#7870#7986#0" expanded="false" />
             <element signature="n#!!block;n#dblcmp#0" expanded="false" />
             <element signature="n#!!block;n#deal#0" expanded="false" />
+            <element signature="n#!!block;n#dfs#0" expanded="false" />
             <element signature="n#!!block;n#dotProduct#0" expanded="false" />
             <element signature="n#!!block;n#cross#0" expanded="false" />
             <element signature="n#!!block;n#vectorV#0" expanded="false" />
@@ -654,14 +746,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/simplex_incremental_construction_animation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/simplex_incremental_construction.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2760">
@@ -688,76 +772,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/quick_hull_animation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="157" column="62" lean-forward="false" selection-start-line="157" selection-start-column="62" selection-end-line="157" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#47#0" expanded="false" />
-            <element signature="e#279#309#0" expanded="false" />
-            <element signature="n#!!block;n#construct_states#0" expanded="false" />
-            <element signature="n#!!block;n#triangles#0" expanded="false" />
-            <element signature="e#3649#3671#0" expanded="false" />
-            <element signature="n#!!block;n#pre_process_points#0" expanded="false" />
-            <element signature="n#!!block;n#init#0" expanded="false" />
-            <element signature="n#!!block;n#dispose_current_scence#0" expanded="false" />
-            <element signature="n#!!block;n#addPoints#0" expanded="false" />
-            <element signature="n#!!block;n#drawTriangles#0" expanded="false" />
-            <element signature="n#!!block;n#animate#0" expanded="false" />
-            <element signature="n#!!block;n#init_F#0" expanded="false" />
-            <element signature="e#9609#9635#0" expanded="false" />
-            <element signature="n#!!block;n#init_g#0" expanded="false" />
-            <element signature="e#9754#9870#0" expanded="false" />
-            <element signature="e#9874#9906#0" expanded="false" />
-            <element signature="n#!!block;n#dblcmp#0" expanded="false" />
-            <element signature="n#!!block;n#deal#0" expanded="false" />
-            <element signature="n#!!block;n#dotProduct#0" expanded="false" />
-            <element signature="n#!!block;n#cross#0" expanded="false" />
-            <element signature="n#!!block;n#vectorV#0" expanded="false" />
-            <element signature="n#!!block;n#checkCollinear#0" expanded="false" />
-            <element signature="n#!!block;n#check_validation#0" expanded="false" />
-            <element signature="n#!!block;n#swap_points#0" expanded="false" />
-            <element signature="e#13097#13143#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/incremental_construction_animation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="266" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#47#0" expanded="false" />
-            <element signature="e#279#309#0" expanded="false" />
-            <element signature="n#!!block;n#construct_states#0" expanded="false" />
-            <element signature="n#!!block;n#triangles#0" expanded="false" />
-            <element signature="e#3692#3714#0" expanded="false" />
-            <element signature="n#!!block;n#init#0" expanded="false" />
-            <element signature="n#!!block;n#dispose_current_scence#0" expanded="false" />
-            <element signature="n#!!block;n#addPoints#0" expanded="false" />
-            <element signature="n#!!block;n#drawTriangles#0" expanded="false" />
-            <element signature="n#!!block;n#animate#0" expanded="false" />
-            <element signature="n#!!block;n#init_F#0" expanded="false" />
-            <element signature="e#8300#8334#0" expanded="false" />
-            <element signature="n#!!block;n#init_g#0" expanded="false" />
-            <element signature="e#8469#8605#0" expanded="false" />
-            <element signature="e#8617#8649#0" expanded="false" />
-            <element signature="n#!!block;n#dblcmp#0" expanded="false" />
-            <element signature="n#!!block;n#deal#0" expanded="false" />
-            <element signature="n#!!block;n#dotProduct#0" expanded="false" />
-            <element signature="n#!!block;n#cross#0" expanded="false" />
-            <element signature="n#!!block;n#vectorV#0" expanded="false" />
-            <element signature="n#!!block;n#checkCollinear#0" expanded="false" />
-            <element signature="n#!!block;n#check_validation#0" expanded="false" />
-            <element signature="n#!!block;n#swap_points#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -884,8 +902,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/gift_wrapping_animation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="100">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
           <folding>
             <element signature="n#!!block;n#construct_states#0" expanded="false" />
             <element signature="n#!!block;n#init#0" expanded="false" />
@@ -908,6 +926,99 @@
             <element signature="n#!!block;n#vlen#0" expanded="false" />
             <element signature="n#!!block;n#checkCollinear#0" expanded="false" />
             <element signature="n#!!block;n#cross#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/incremental_construction_animation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="860">
+          <caret line="333" column="1" lean-forward="true" selection-start-line="333" selection-start-column="1" selection-end-line="333" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+            <element signature="e#286#316#0" expanded="false" />
+            <element signature="n#!!block;n#construct_states#0" expanded="false" />
+            <element signature="n#!!block;n#triangles#0" expanded="false" />
+            <element signature="e#3371#3393#0" expanded="false" />
+            <element signature="n#!!block;n#init#0" expanded="false" />
+            <element signature="n#!!block;n#dispose_current_scence#0" expanded="false" />
+            <element signature="n#!!block;n#addPoints#0" expanded="false" />
+            <element signature="n#!!block;n#drawTriangles#0" expanded="false" />
+            <element signature="n#!!block;n#animate#0" expanded="false" />
+            <element signature="n#!!block;n#init_F#0" expanded="false" />
+            <element signature="e#7725#7751#0" expanded="false" />
+            <element signature="n#!!block;n#init_g#0" expanded="false" />
+            <element signature="e#7870#7986#0" expanded="false" />
+            <element signature="n#!!block;n#dblcmp#0" expanded="false" />
+            <element signature="n#!!block;n#deal#0" expanded="false" />
+            <element signature="n#!!block;n#dfs#0" expanded="false" />
+            <element signature="n#!!block;n#dotProduct#0" expanded="false" />
+            <element signature="n#!!block;n#cross#0" expanded="false" />
+            <element signature="n#!!block;n#vectorV#0" expanded="false" />
+            <element signature="n#!!block;n#checkCollinear#0" expanded="false" />
+            <element signature="n#!!block;n#check_validation#0" expanded="false" />
+            <element signature="n#!!block;n#swap_points#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/quick_hull_animation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="383" column="1" lean-forward="false" selection-start-line="383" selection-start-column="1" selection-end-line="383" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+            <element signature="e#279#309#0" expanded="false" />
+            <element signature="n#!!block;n#construct_states#0" expanded="false" />
+            <element signature="n#!!block;n#triangles#0" expanded="false" />
+            <element signature="e#3648#3670#0" expanded="false" />
+            <element signature="n#!!block;n#pre_process_points#0" expanded="false" />
+            <element signature="n#!!block;n#pre_process_triangle#0" expanded="false" />
+            <element signature="n#!!block;n#init#0" expanded="false" />
+            <element signature="n#!!block;n#dispose_current_scence#0" expanded="false" />
+            <element signature="n#!!block;n#addPoints#0" expanded="false" />
+            <element signature="n#!!block;n#drawTriangles#0" expanded="false" />
+            <element signature="n#!!block;n#animate#0" expanded="false" />
+            <element signature="n#!!block;n#init_F#0" expanded="false" />
+            <element signature="e#9288#9314#0" expanded="false" />
+            <element signature="n#!!block;n#init_g#0" expanded="false" />
+            <element signature="e#9434#9550#0" expanded="false" />
+            <element signature="n#!!block;n#dblcmp#0" expanded="false" />
+            <element signature="n#!!block;n#deal#0" expanded="false" />
+            <element signature="n#!!block;n#dfs#0" expanded="false" />
+            <element signature="n#!!block;n#dotProduct#0" expanded="false" />
+            <element signature="n#!!block;n#cross#0" expanded="false" />
+            <element signature="n#!!block;n#vectorV#0" expanded="false" />
+            <element signature="n#!!block;n#checkCollinear#0" expanded="false" />
+            <element signature="n#!!block;n#check_validation#0" expanded="false" />
+            <element signature="n#!!block;n#swap_points#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/simplex_incremental_construction_animation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="137" column="0" lean-forward="true" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#init_triangledict#0" expanded="false" />
+            <element signature="n#!!block;n#construct_states#0" expanded="false" />
+            <element signature="n#!!block;n#triangles#0" expanded="false" />
+            <element signature="n#!!block;n#init#0" expanded="false" />
+            <element signature="n#!!block;n#dispose_current_scence#0" expanded="false" />
+            <element signature="n#!!block;n#addPoints#0" expanded="false" />
+            <element signature="n#!!block;n#drawTriangle#0" expanded="false" />
+            <element signature="n#!!block;n#drawTriangles#0" expanded="false" />
+            <element signature="n#!!block;n#animate#0" expanded="false" />
+            <element signature="n#!!block;n#vlen#0" expanded="false" />
+            <element signature="n#!!block;n#dblcmp#0" expanded="false" />
+            <element signature="n#!!block;n#dotProduct#0" expanded="false" />
+            <element signature="n#!!block;n#cross#0" expanded="false" />
+            <element signature="n#!!block;n#vectorV#0" expanded="false" />
+            <element signature="n#!!block;n#checkCollinear#0" expanded="false" />
+            <element signature="n#!!block;n#check_validation#0" expanded="false" />
+            <element signature="n#!!block;n#swap_points#0" expanded="false" />
+            <element signature="n#!!block;n#unique#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -37,7 +37,6 @@ function construct_states(){
     triangles();
 }
 
-
 function triangles() {
     init_g();
     init_F();
@@ -147,6 +146,7 @@ function pre_process_points(){
     swap_points(points,ans[1],1);
     //console.log(points);
 }
+
 function pre_process_triangle() {
     var m = vectorV(points[1], points[0]);
     var m_len = Math.sqrt(m.x * m.x + m.y * m.y + m.z * m.z);
@@ -169,42 +169,31 @@ function pre_process_triangle() {
     swap_points(points,index_needed,2);
 }
 
-
 function init(n){
-    //创建一个新的场景
     scene = new THREE.Scene();
-    //创建透视相机
-    camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
-    //后面的参数分别是 透视角度，长宽比例，近视锥面，远视锥面
-    var axes = new THREE.AxesHelper(20);
-    //scene.add(axes);
 
-    //addPlane();
+    camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
+
+    var axes = new THREE.AxesHelper(20);
+
     addPoints(points);
     scene.add(group);
-    //console.log(states.length);
+
     drawTriangles(states[n]);
 
-
-    //小于近视锥面的物体将不渲染，远于远视锥面的物体也不渲染
-    //设置相机位置与朝向
     camera.position.x = -30;
     camera.position.y = 40;
     camera.position.z = 30;
     camera.lookAt(scene.position);
 
-    //创建渲染器
     renderer = new THREE.WebGLRenderer();
-    renderer.setClearColor(new THREE.Color(0xEEEEEE));//渲染器清除颜色 ：淡灰色
+    renderer.setClearColor(new THREE.Color(0xEEEEEE));
     renderer.setSize(window.innerWidth,window.innerHeight);
-    //在div内放置canvas
+
     document.getElementById("0").appendChild(renderer.domElement);
-    //渲染
-    // renderer.render(scene, camera);
 
     stats = new Stats();
-    document.body.appendChild(stats.dom);//简单的直接添加的方法
-
+    document.body.appendChild(stats.dom);
 
     guiControl = new function(){
         this.rotationSpeed = 0.001;
@@ -212,12 +201,12 @@ function init(n){
     item = gui.add(guiControl, 'rotationSpeed', 0,0.05);
 
     controls = new THREE.TrackballControls(camera, renderer.domElement);
-    controls.minDistance = 20.0;//最近距离
-    controls.maxDistance = 400.0;//最远距离
+    controls.minDistance = 20.0;
+    controls.maxDistance = 400.0;
     controls.dymnamicDampingFactor = 0.1;
 
-
 }
+
 function dispose_current_scence(){
     group = new THREE.Group();
 }
@@ -243,7 +232,6 @@ function addPoints(point){
         group.add(new_sphere);
     }
 }
-
 
 function drawTriangles(triangle_List){
 
@@ -286,7 +274,6 @@ function drawTriangles(triangle_List){
     }
 }
 
-
 function animate(){
     requestAnimationFrame(animate);
     group.rotation.y += guiControl.rotationSpeed;//线框模型旋转
@@ -297,13 +284,14 @@ function animate(){
 
 }
 
-//triangles();
+
 function init_F() {
     for (var i = 0; i < 8*points.length; i++) {
         F.push(0);
     }
     // console.log("After initialization, F: ", F);
 }
+
 function init_g() {
     for (var i = 0; i < points.length; i++) {
         g.push([]);
@@ -312,10 +300,6 @@ function init_g() {
         }
     }
 }
-
-// function vlen(pointA_index) {
-//     return Math.sqrt(points[pointA_index].x * points[pointA_index].x + points[pointA_index].y * points[pointA_index].y + points[pointA_index].z * points[pointA_index].z);
-// }
 
 function dblcmp(pointA, face)//redo the check same plane take face as a parameter. If positive, the same direction.
 {
@@ -361,6 +345,7 @@ function dfs(pointIndex, nowPointIndex) {//set the ok's to 0;
     deal(pointIndex, F[nowPointIndex].c, F[nowPointIndex].b);
     deal(pointIndex, F[nowPointIndex].a, F[nowPointIndex].c);
 }
+
 function dotProduct(pointA, pointB) {
     return (pointA.x * pointB.x + pointA.y * pointB.y + pointA.z * pointB.z);
 }
@@ -371,7 +356,6 @@ function cross(pointA, pointB) {
     var z = (pointA.x * pointB.y) - (pointA.y * pointB.x);
     return {x: x, y: y, z: z};
 }
-
 
 function vectorV(pointA, pointB) {
     return {x: pointA.x - pointB.x, y: pointA.y - pointB.y, z: pointA.z - pointB.z};
@@ -397,6 +381,4 @@ function swap_points(the_array, index1, index2) {
     the_array[index1] = the_array[index2];
     the_array[index2] = temp;
     //console.log(the_array);
-}/**
- * Created by tianyingzhang on 5/6/21.
- */
+}

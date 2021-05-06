@@ -21,6 +21,7 @@ function init_triangledict(){
     //console.log("temp:" + temp_constructor);
     return temp_constructor;
 }
+
 function construct_states(){
     init_triangledict();
     states = [];
@@ -38,14 +39,11 @@ function triangles() {
     var keys = [];
     //three points are not collinear
     for (i = 2; i < points.length; i++) {
-        console.log("111i'm now in check three points.");
         if (checkCollinear(points[0], points[1], points[2]) === false) {
             swap_points(points, 2, i);
             flag = false;
             break;
-            console.log("222i'm now in check three points.");
         }
-        console.log("333i'm now in check three points.");
     }
     if (flag) {
         console.log("3 fail.");
@@ -133,54 +131,37 @@ function triangles() {
         temp2 = Object.assign({}, temp_triangle_dic);
         states.push(temp2);
         keys = [];
-
-
-
     }
     console.log(F);
     return F;
-
 }
 
-
-
-
-
 function init(n){
-    //创建一个新的场景
     scene = new THREE.Scene();
-    //创建透视相机
-    camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
-    //后面的参数分别是 透视角度，长宽比例，近视锥面，远视锥面
-    var axes = new THREE.AxesHelper(20);
-    //scene.add(axes);
 
-    //addPlane();
+    camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
+
+    var axes = new THREE.AxesHelper(20);
+
     addPoints(points);
     scene.add(group);
-    //console.log(states.length);
+
     drawTriangles(states[n]);
 
-
-    //小于近视锥面的物体将不渲染，远于远视锥面的物体也不渲染
-    //设置相机位置与朝向
     camera.position.x = -30;
     camera.position.y = 40;
     camera.position.z = 30;
     camera.lookAt(scene.position);
 
-    //创建渲染器
     renderer = new THREE.WebGLRenderer();
-    renderer.setClearColor(new THREE.Color(0xEEEEEE));//渲染器清除颜色 ：淡灰色
+    renderer.setClearColor(new THREE.Color(0xEEEEEE));
     renderer.setSize(window.innerWidth,window.innerHeight);
-    //在div内放置canvas
+
     document.getElementById("0").appendChild(renderer.domElement);
-    //渲染
-    // renderer.render(scene, camera);
+
 
     stats = new Stats();
-    document.body.appendChild(stats.dom);//简单的直接添加的方法
-
+    document.body.appendChild(stats.dom);
 
     guiControl = new function(){
         this.rotationSpeed = 0.001;
@@ -188,33 +169,15 @@ function init(n){
     item = gui.add(guiControl, 'rotationSpeed', 0,0.05);
 
     controls = new THREE.TrackballControls(camera, renderer.domElement);
-    controls.minDistance = 20.0;//最近距离
-    controls.maxDistance = 400.0;//最远距离
+    controls.minDistance = 20.0;
+    controls.maxDistance = 400.0;
     controls.dymnamicDampingFactor = 0.1;
-
-
 }
+
 function dispose_current_scence(){
     group = new THREE.Group();
 }
 
-function addPlane(){
-    var planeGeometry = new THREE.PlaneGeometry(60, 60);//框架 长60 宽20
-    var planeMaterial = new THREE.MeshBasicMaterial({
-        color: 0xcccccc,
-        opacity: 10,
-        transparent: true,
-    });//材质 单纯只有颜色的材质
-    plane = new THREE.Mesh(planeGeometry, planeMaterial);//填充
-
-    //更改平面位置
-    plane.rotation.x = -0.5 * Math.PI;//按照x轴旋转90度
-    plane.position.x = 15;//向x正方向移动一点点
-    plane.position.y = 0;
-    plane.position.z = 0;
-
-    scene.add(plane);
-}
 function addPoints(point){
     var point1 = new THREE.Vector3(point[0].x, point[0].y, point[0].z); //创建一个坐标点
 
@@ -238,6 +201,7 @@ function addPoints(point){
 
 
 }
+
 function drawTriangle(p1,p2,p3){
     // create just one triangle
     var vertices = new Float32Array([
@@ -264,7 +228,6 @@ function drawTriangle(p1,p2,p3){
 }
 
 function drawTriangles(triangle_List){
-
     for (var i = 0; i < points.length-2; i++) {
         for (var j = i + 1; j < points.length-1; j++) {
             for (var k = j + 1; k < points.length; k++) {
@@ -303,7 +266,6 @@ function drawTriangles(triangle_List){
     }
 }
 
-
 function animate(){
     requestAnimationFrame(animate);
     group.rotation.y += guiControl.rotationSpeed;//线框模型旋转
@@ -311,60 +273,7 @@ function animate(){
     controls.update();
     stats.update();
     renderer.render(scene,camera);
-
 }
-//window.onload = init;
-//create triangles
-
-//triangles();
-// function triangles(){
-//     var result_triangles = [];
-//     var temp_triangle_dic = Object.assign({}, triangle_dict);
-//     var temp2 = Object.assign({}, triangle_dict);
-//     for(i = 0; i < points.length; i ++){
-//         for (j = i+1; j < points.length;j ++){
-//             for (k = j + 1; k < points.length;k ++){
-//                 if (!checkCollinear(points[i],points[j],points[k])){
-//                     var current_triangle = i.toString(10) + "," + j.toString(10) + "," + k.toString(10);
-//                     temp_triangle_dic[current_triangle]= [true,true,"rgb(255, 13, 27)"];
-//                     temp2 = Object.assign({}, temp_triangle_dic);
-//                     states.push(temp2);
-//                     //run vis
-//                     //test all of the other points
-//                     for (l = 0; l < points.length; l ++){
-//                         if (l !== i && l !== j && l !== k){
-//                             side.push(sign(points[l],points[i],points[j],points[k]));
-//                             //sleep(2000);
-//                             //console.log("wake up");
-//
-//                         }
-//                     }
-//                     var side_Set = new Set(side);
-//                     if (Array.from(side_Set).length < 2){
-//                         result_triangles.push([points[i],points[j],points[k]]);
-//                         temp_triangle_dic[current_triangle] = [false,true,"rgb(79, 114, 240)"];
-//                         temp2 = Object.assign({}, temp_triangle_dic);
-//                         states.push(temp2);
-//                     }
-//                     else{
-//                         temp_triangle_dic[current_triangle] = [false,false,"rgb(144, 238, 144)"];
-//                         temp2 = Object.assign({}, temp_triangle_dic);
-//                         states.push(temp2);
-//                     }
-//
-//                     side = [];
-//                 }
-//             }
-//         }
-//     }
-//     return result_triangles;
-// }
-
-
-
-
-
-
 
 function vlen(pointA_index) {
     return Math.sqrt(points[pointA_index].x * points[pointA_index].x + points[pointA_index].y * points[pointA_index].y + points[pointA_index].z * points[pointA_index].z);
@@ -378,8 +287,6 @@ function dblcmp(pointA, face)//redo the check same plane take face as a paramete
     return dotProduct(cross(m, n), t);
 }
 
-
-// console.log(check_validation(a,b,c,d));
 function dotProduct(pointA, pointB) {
     return (pointA.x * pointB.x + pointA.y * pointB.y + pointA.z * pointB.z);
 }
@@ -390,7 +297,6 @@ function cross(pointA, pointB) {
     var z = (pointA.x * pointB.y) - (pointA.y * pointB.x);
     return {x: x, y: y, z: z};
 }
-
 
 function vectorV(pointA, pointB) {
     return {x: pointA.x - pointB.x, y: pointA.y - pointB.y, z: pointA.z - pointB.z};
@@ -417,8 +323,6 @@ function swap_points(the_array, index1, index2) {
     the_array[index2] = temp;
     //console.log(the_array);
 }
-// console.log(swap_points([1,2,3,4,5,6,7,8,9,10],2,6));
-
 
 function unique(arr) {
     return Array.from(new Set(arr))
