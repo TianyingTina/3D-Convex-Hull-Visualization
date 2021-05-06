@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="afe07176-c022-463d-8b54-b0731e275bab" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="HTML4 File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>point</find>
+      <find>plane</find>
+      <find>triangle</find>
+      <find>console.</find>
+      <find>drawTriangles</find>
+      <find>swap_points</find>
+      <find>points</find>
+      <find>add</find>
+      <find>j</find>
+      <find>cross</find>
+      <find>console.log</find>
+      <find>my</find>
+      <find>side</find>
+      <find>my_plane</find>
+      <find>triangle_dict</find>
+      <find>n</find>
+      <find>point_list</find>
+      <find>tKey</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>points.length</replace>
+      <replace>my_plane</replace>
+      <replace>points</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/node_modules/three/package.json" />
+        <option value="$PROJECT_DIR$/html/test.html" />
+        <option value="$PROJECT_DIR$/ThreeJS三大组件.html" />
+        <option value="$PROJECT_DIR$/ThreeJS基本图形之点线.html" />
+        <option value="$PROJECT_DIR$/ThreeJS基本图形之网格模型.html" />
+        <option value="$PROJECT_DIR$/scripts/js/display_points.js" />
+        <option value="$PROJECT_DIR$/scripts/js/init_points.html" />
+        <option value="$PROJECT_DIR$/scripts/init_points.html" />
+        <option value="$PROJECT_DIR$/scripts/points_animation.js" />
+        <option value="$PROJECT_DIR$/scripts/html/init_points_and_run_brute_force.html" />
+        <option value="$PROJECT_DIR$/scripts/js/incremental_construction.js" />
+        <option value="$PROJECT_DIR$/scripts/init_points and_run_incremental_construction.html" />
+        <option value="$PROJECT_DIR$/html/init_points and_run_incremental_construction.html" />
+        <option value="$PROJECT_DIR$/scripts/brute_force_animation.js" />
+        <option value="$PROJECT_DIR$/scripts/generate_random_points.js" />
+        <option value="$PROJECT_DIR$/scripts/display_points.js" />
+        <option value="$PROJECT_DIR$/scripts/display_points.html" />
+        <option value="$PROJECT_DIR$/html/init_points_and_run_brute_force.html" />
+        <option value="$PROJECT_DIR$/scripts/test_trilist.js" />
+        <option value="$PROJECT_DIR$/scripts/quick_hull.js" />
+        <option value="$PROJECT_DIR$/scripts/simplex_incremental_construction.js" />
+        <option value="$PROJECT_DIR$/scripts/simplex_incremental_construction_animation.js" />
+        <option value="$PROJECT_DIR$/html/simplex_incremental_construction_animation.html" />
+        <option value="$PROJECT_DIR$/scripts/incremental_construction.js" />
+        <option value="$PROJECT_DIR$/html/incremental_construction_animation.html" />
+        <option value="$PROJECT_DIR$/html/quick_hull_animation.html" />
+        <option value="$PROJECT_DIR$/scripts/quick_hull_animation.js" />
+        <option value="$PROJECT_DIR$/scripts/incremental_construction_animation.js" />
+        <option value="$PROJECT_DIR$/html/gift_wrapping_animation.html" />
+        <option value="$PROJECT_DIR$/html/my_page.html" />
+        <option value="$PROJECT_DIR$/scripts/bruteforce.js" />
+        <option value="$PROJECT_DIR$/scripts/gift_wrapping.js" />
+        <option value="$PROJECT_DIR$/scripts/gift_wrapping_animation.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="25" />
+    <option name="width" value="1920" />
+    <option name="height" value="969" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML4 File" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scripts" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scripts" />
+      <recent name="$PROJECT_DIR$/html" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/scripts/html" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.gift_wrapping_animation.html">
+    <configuration default="false" name="quick_hull_animation.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CGproject/html/quick_hull_animation.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="gift_wrapping_animation.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CGproject/html/gift_wrapping_animation.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="my_page.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CGproject/html/my_page.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="gift_wrapping.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="gift_wrapping.js" working-dir="$PROJECT_DIR$/scripts">
+      <method />
+    </configuration>
+    <configuration default="false" name="gift_wrapping_animation.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="gift_wrapping_animation.js" working-dir="$PROJECT_DIR$/scripts">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.quick_hull_animation.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.gift_wrapping_animation.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.my_page.html" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.gift_wrapping.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.gift_wrapping_animation.js" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.gift_wrapping_animation.html" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.gift_wrapping_animation.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.gift_wrapping.js" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.my_page.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.quick_hull_animation.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="afe07176-c022-463d-8b54-b0731e275bab" name="Default" comment="" />
+      <created>1619490021003</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619490021003</updated>
+      <workItem from="1619490022251" duration="11279000" />
+      <workItem from="1619575620870" duration="134000" />
+      <workItem from="1619707021423" duration="33046000" />
+      <workItem from="1619920622124" duration="3202000" />
+      <workItem from="1620081525918" duration="60735000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="108396000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="25" width="1920" height="969" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13954712" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32781065" sideWeight="0.52606636" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32781065" sideWeight="0.47393364" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24960506" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15621302" sideWeight="0.49552396" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39408284" sideWeight="0.48288572" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="11" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/scripts/display_points.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/display_points.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="59" column="16" lean-forward="false" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/init_points_and_run_brute_force.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2100">
+          <caret line="105" column="60" lean-forward="true" selection-start-line="105" selection-start-column="60" selection-end-line="105" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/incremental_construction_animation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/incremental_construction_animation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3540">
+          <caret line="179" column="57" lean-forward="true" selection-start-line="179" selection-start-column="57" selection-end-line="179" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/bruteforce.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="68" column="27" lean-forward="false" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/brute_force_animation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1300">
+          <caret line="67" column="22" lean-forward="true" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_trilist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/generate_random_points.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/init_points_and_run_brute_force.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2260">
+          <caret line="113" column="27" lean-forward="true" selection-start-line="113" selection-start-column="27" selection-end-line="113" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/bruteforce.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/display_points.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/display_points.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/generate_random_points.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/bruteforce.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/display_points.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/display_points.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/generate_random_points.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/three/package.json" />
+    <entry file="file://$PROJECT_DIR$/node_modules/three/build/three.js" />
+    <entry file="file://$PROJECT_DIR$/js/libs/draco/gltf/draco_decoder.js" />
+    <entry file="file://$PROJECT_DIR$/html/test.html" />
+    <entry file="file://$PROJECT_DIR$/ThreeJS三大组件.html" />
+    <entry file="file://$PROJECT_DIR$/ThreeJS基本图形之点线.html" />
+    <entry file="file://$PROJECT_DIR$/ThreeJS基本图形之网格模型.html" />
+    <entry file="file://$PROJECT_DIR$/scripts/ThreeJS基本图形之点线.html" />
+    <entry file="file://$PROJECT_DIR$/scripts/js/libs/draco/gltf/draco_decoder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/js/display_points.js" />
+    <entry file="file://$PROJECT_DIR$/scripts/js/init_points.html" />
+    <entry file="file://$PROJECT_DIR$/scripts/js/math/Lut.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/js/math/ColorConverter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/display_points.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/display_points.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_trilist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="62" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/generate_random_points.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="38" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/init_points_and_run_brute_force.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="123" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="127" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/simplex_incremental_construction_animation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/simplex_incremental_construction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2760">
+          <caret line="138" column="42" lean-forward="false" selection-start-line="138" selection-start-column="42" selection-end-line="138" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/simplex_incremental_construction_animation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-269">
+          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/incremental_construction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="200" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/quick_hull.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2798">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="64" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/quick_hull_animation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="39" column="20" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+          <folding>
+            <element signature="n#script#1;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/quick_hull_animation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="157" column="62" lean-forward="false" selection-start-line="157" selection-start-column="62" selection-end-line="157" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+            <element signature="e#279#309#0" expanded="false" />
+            <element signature="n#!!block;n#construct_states#0" expanded="false" />
+            <element signature="n#!!block;n#triangles#0" expanded="false" />
+            <element signature="e#3649#3671#0" expanded="false" />
+            <element signature="n#!!block;n#pre_process_points#0" expanded="false" />
+            <element signature="n#!!block;n#init#0" expanded="false" />
+            <element signature="n#!!block;n#dispose_current_scence#0" expanded="false" />
+            <element signature="n#!!block;n#addPoints#0" expanded="false" />
+            <element signature="n#!!block;n#drawTriangles#0" expanded="false" />
+            <element signature="n#!!block;n#animate#0" expanded="false" />
+            <element signature="n#!!block;n#init_F#0" expanded="false" />
+            <element signature="e#9609#9635#0" expanded="false" />
+            <element signature="n#!!block;n#init_g#0" expanded="false" />
+            <element signature="e#9754#9870#0" expanded="false" />
+            <element signature="e#9874#9906#0" expanded="false" />
+            <element signature="n#!!block;n#dblcmp#0" expanded="false" />
+            <element signature="n#!!block;n#deal#0" expanded="false" />
+            <element signature="n#!!block;n#dotProduct#0" expanded="false" />
+            <element signature="n#!!block;n#cross#0" expanded="false" />
+            <element signature="n#!!block;n#vectorV#0" expanded="false" />
+            <element signature="n#!!block;n#checkCollinear#0" expanded="false" />
+            <element signature="n#!!block;n#check_validation#0" expanded="false" />
+            <element signature="n#!!block;n#swap_points#0" expanded="false" />
+            <element signature="e#13097#13143#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/incremental_construction_animation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="126" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="126" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/brute_force_animation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1580">
+          <caret line="235" column="43" lean-forward="false" selection-start-line="235" selection-start-column="43" selection-end-line="235" selection-end-column="104" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+            <element signature="n#!!block;n#init#0" expanded="false" />
+            <element signature="n#!!block;n#addPlane#0" expanded="false" />
+            <element signature="n#!!block;n#addPoints#0" expanded="false" />
+            <element signature="n#!!block;n#drawTriangle#0" expanded="false" />
+            <element signature="n#!!block;n#drawTriangles#0" expanded="false" />
+            <element signature="n#!!block;n#animate#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/my_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/gift_wrapping_animation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1180">
+          <caret line="106" column="73" lean-forward="false" selection-start-line="106" selection-start-column="73" selection-end-line="106" selection-end-column="73" />
+          <folding>
+            <element signature="n#script#1;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/incremental_construction_animation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="266" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+            <element signature="e#279#309#0" expanded="false" />
+            <element signature="n#!!block;n#construct_states#0" expanded="false" />
+            <element signature="n#!!block;n#triangles#0" expanded="false" />
+            <element signature="e#3692#3714#0" expanded="false" />
+            <element signature="n#!!block;n#init#0" expanded="false" />
+            <element signature="n#!!block;n#dispose_current_scence#0" expanded="false" />
+            <element signature="n#!!block;n#addPoints#0" expanded="false" />
+            <element signature="n#!!block;n#drawTriangles#0" expanded="false" />
+            <element signature="n#!!block;n#animate#0" expanded="false" />
+            <element signature="n#!!block;n#init_F#0" expanded="false" />
+            <element signature="e#8300#8334#0" expanded="false" />
+            <element signature="n#!!block;n#init_g#0" expanded="false" />
+            <element signature="e#8469#8605#0" expanded="false" />
+            <element signature="e#8617#8649#0" expanded="false" />
+            <element signature="n#!!block;n#dblcmp#0" expanded="false" />
+            <element signature="n#!!block;n#deal#0" expanded="false" />
+            <element signature="n#!!block;n#dotProduct#0" expanded="false" />
+            <element signature="n#!!block;n#cross#0" expanded="false" />
+            <element signature="n#!!block;n#vectorV#0" expanded="false" />
+            <element signature="n#!!block;n#checkCollinear#0" expanded="false" />
+            <element signature="n#!!block;n#check_validation#0" expanded="false" />
+            <element signature="n#!!block;n#swap_points#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/gift_wrapping_animation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="281" column="42" lean-forward="true" selection-start-line="281" selection-start-column="42" selection-end-line="281" selection-end-column="42" />
+          <folding>
+            <element signature="n#!!block;n#construct_states#0" expanded="false" />
+            <element signature="n#!!block;n#init#0" expanded="false" />
+            <element signature="n#!!block;n#dispose_current_scence#0" expanded="false" />
+            <element signature="n#!!block;n#addPoints#0" expanded="false" />
+            <element signature="n#!!block;n#drawTriangles#0" expanded="false" />
+            <element signature="n#!!block;n#animate#0" expanded="false" />
+            <element signature="n#!!block;n#generate_dic_key#0" expanded="false" />
+            <element signature="n#!!block;n#init_T#0" expanded="false" />
+            <element signature="n#!!block;n#dblcmp#0" expanded="false" />
+            <element signature="n#!!block;n#dotProduct#0" expanded="false" />
+            <element signature="n#!!block;n#vlen#0" expanded="false" />
+            <element signature="n#!!block;n#checkCollinear#0" expanded="false" />
+            <element signature="n#!!block;n#cross#0" expanded="false" />
+            <element signature="n#!!block;n#equation_plane#0" expanded="false" />
+            <element signature="n#!!block;n#sign#0" expanded="false" />
+            <element signature="e#14884#14926#0" expanded="false" />
+            <element signature="n#!!block;n#brute_force#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/gift_wrapping.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="301" column="44" lean-forward="true" selection-start-line="243" selection-start-column="0" selection-end-line="301" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#46#0" expanded="false" />
+            <element signature="n#!!block;n#gift_wrapping#0" expanded="false" />
+            <element signature="n#!!block;n#triangle_normal#0" expanded="false" />
+            <element signature="n#!!block;n#find_third_point#0" expanded="false" />
+            <element signature="n#!!block;n#vectorV#0" expanded="false" />
+            <element signature="n#!!block;n#swap_points#0" expanded="false" />
+            <element signature="n#!!block;n#find_first_point#0" expanded="false" />
+            <element signature="n#!!block;n#find_second_point#0" expanded="false" />
+            <element signature="n#!!block;n#dotProduct#0" expanded="false" />
+            <element signature="n#!!block;n#vlen#0" expanded="false" />
+            <element signature="n#!!block;n#checkCollinear#0" expanded="false" />
+            <element signature="n#!!block;n#cross#0" expanded="false" />
+            <element signature="n#!!block;n#equation_plane#0" expanded="false" />
+            <element signature="n#!!block;n#sign#0" expanded="false" />
+            <marker date="1620326568618" expanded="true" signature="3670:3999" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/bruteforce.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

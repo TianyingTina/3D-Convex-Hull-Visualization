@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Initialize Points and Run Gift Wrapping</title>
+    <script src="../scripts/js/three.js"></script>
+    <script src="../scripts/js/controls/OrbitControls.js"></script>
+    <script src='../scripts/js/libs/stats.min.js'></script>
+    <script src="../scripts/js/libs/dat.gui.min.js"></script>
+    <script src="../scripts/js/controls/TrackballControls.js"></script>
+    <style>
+        body{
+            margin:0px;padding:0px;
+            overflow:hidden;
+        }
+    </style>
+</head>
+<label name="steps" id = "steps">Choose a Step:</label>
+<!--<select>-->
+<!--<option value="volvo">Volvo</option>-->
+<!--<option value="saab">Saab</option>-->
+<!--<option value="mercedes">Mercedes</option>-->
+<!--<option value="audi">Audi</option>-->
+<!--</select>-->
+
+<script>
+    createSelect();
+    function createSelect(){
+
+        var mySelect = document.createElement("select");
+
+        mySelect.id = "mySelect";
+
+        document.body.appendChild(mySelect);
+
+    }
+    function addOptions(){
+        var obj=document.getElementById('mySelect');
+        for (var i = 0; i< states.length; i++){
+            var step_num = i + 1;
+            var new_option =new Option("Step" + step_num, i);
+            new_option.setAttribute("id",i.toString(10));
+            obj.add(new_option);
+        }
+    }
+
+</script>
+<input type="button" id="btn" value="go" onclick="setSubmit(this)" />
+<input type="button" id="nextbtn" value="next" onclick="nextSubmit(this)" />
+<script type="text/javascript">
+    function clear_div(){
+        var elem=document.getElementById('0');
+        elem.parentNode.removeChild(elem);
+        gui.remove(item);
+
+    }
+    function setSubmit()
+    {
+        var mySelect = document.getElementById("mySelect");
+        var index=mySelect.selectedIndex;
+        var val = parseInt(mySelect.options[index].value, 10);
+        clear_div();
+//        var elem=document.getElementById('0');
+//        elem.parentNode.removeChild(elem);
+//        gui.remove(item);
+        var mydiv0 = document.createElement('div');
+
+        mydiv0.id = "0";
+        document.body.appendChild(mydiv0);
+        dispose_current_scence();
+        triangle_dict = {};
+        construct_states();
+
+        init(val);
+        animate();
+
+    }
+    function nextSubmit(){
+        var mySelect = document.getElementById("mySelect");
+        var index=mySelect.selectedIndex;
+        var val = parseInt(mySelect.options[index].value, 10);
+        var new_id = val+1;
+        document.getElementById(new_id.toString(10)).selected = "true";
+        clear_div();
+//        var elem=document.getElementById('0');
+//        elem.parentNode.removeChild(elem);
+//        gui.remove(item);
+        var mydiv0 = document.createElement('div');
+        mydiv0.id = "0";
+        document.body.appendChild(mydiv0);
+        dispose_current_scence();
+        triangle_dict = {};
+        construct_states();
+        init(new_id);
+        animate();
+    }
+</script>
+<button id = "b1" type="button" onclick="generate_points_then_disable()">Click me to generate 6 points.</button>
+<button id = "b2" type="button" onclick="draw_graph()">Click me to prepare points.</button>
+
+<body>
+<div id="0"></div><!--场景的容器1-->
+
+
+
+<script src="../scripts/generate_random_points.js"></script>
+<script type="text/javascript" src="../scripts/gift_wrapping_animation.js">
+</script>
+<script type="text/javascript">
+    //init();
+    function draw_graph(){
+        document.getElementById("b2").disabled=true;
+        construct_states();
+        addOptions();
+        init(0);
+        animate();
+
+
+    }
+    function generate_points_then_disable(){
+        generate_points(6);
+        document.getElementById("b1").disabled=true;
+    }
+</script>
+
+</body>
+</html>
