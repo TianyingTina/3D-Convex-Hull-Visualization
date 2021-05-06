@@ -6,50 +6,38 @@ gui = new dat.GUI();
 var triangle_dict = {};
 group = new THREE.Group();
 states = [];
-var result_triangles;
 
 function construct_states() {
-    //init_triangledict();
     states = [];
-    //console.log("This is first:" , triangle_dict);
     states.push({});
     triangles();
 }
 
 function init(n) {
-    //创建一个新的场景
     scene = new THREE.Scene();
-    //创建透视相机
+
     camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
-    //后面的参数分别是 透视角度，长宽比例，近视锥面，远视锥面
+
     var axes = new THREE.AxesHelper(20);
     //scene.add(axes);
-
-    //addPlane();
     addPoints(points);
     scene.add(group);
-    //console.log(states.length);
+
     drawTriangles(states[n]);
 
-
-    //小于近视锥面的物体将不渲染，远于远视锥面的物体也不渲染
-    //设置相机位置与朝向
     camera.position.x = -30;
     camera.position.y = 40;
     camera.position.z = 30;
     camera.lookAt(scene.position);
 
-    //创建渲染器
     renderer = new THREE.WebGLRenderer();
-    renderer.setClearColor(new THREE.Color(0xEEEEEE));//渲染器清除颜色 ：淡灰色
+    renderer.setClearColor(new THREE.Color(0xEEEEEE));
     renderer.setSize(window.innerWidth, window.innerHeight);
-    //在div内放置canvas
+
     document.getElementById("0").appendChild(renderer.domElement);
-    //渲染
-    // renderer.render(scene, camera);
 
     stats = new Stats();
-    document.body.appendChild(stats.dom);//简单的直接添加的方法
+    document.body.appendChild(stats.dom);
 
 
     guiControl = new function () {
@@ -58,18 +46,17 @@ function init(n) {
     item = gui.add(guiControl, 'rotationSpeed', 0, 0.05);
 
     controls = new THREE.TrackballControls(camera, renderer.domElement);
-    controls.minDistance = 20.0;//最近距离
-    controls.maxDistance = 400.0;//最远距离
+    controls.minDistance = 20.0;
+    controls.maxDistance = 400.0;
     controls.dymnamicDampingFactor = 0.1;
-
-
 }
+
 function dispose_current_scence() {
     group = new THREE.Group();
 }
 
 function addPoints(point) {
-    var point1 = new THREE.Vector3(point[0].x, point[0].y, point[0].z); //创建一个坐标点
+    var point1 = new THREE.Vector3(point[0].x, point[0].y, point[0].z);
 
     var sphereGeometry = new THREE.SphereGeometry(.1, 0, 0);
     var sphereMaterial = new THREE.MeshBasicMaterial({
@@ -90,9 +77,7 @@ function addPoints(point) {
     }
 }
 
-
 function drawTriangles(triangle_List) {
-
     for (var i = 0; i < points.length - 2; i++) {
         for (var j = 0; j < points.length - 1; j++) {
             for (var k = 0; k < points.length; k++) {
@@ -134,7 +119,6 @@ function drawTriangles(triangle_List) {
     }
 }
 
-
 function animate() {
     requestAnimationFrame(animate);
     group.rotation.y += guiControl.rotationSpeed;//线框模型旋转
@@ -142,8 +126,8 @@ function animate() {
     controls.update();
     stats.update();
     renderer.render(scene, camera);
-
 }
+
 function generate_dic_key(a, b) {
     return a.toString(10) + "," + b.toString(10);
 }
@@ -164,13 +148,14 @@ function init_T() {
 }
 
 //find three first points.
-function dblcmp(pointA, facepoint0, facepoint1, facepoint2)//redo the check same plane take face as a parameter. If positive, the same direction.
-{
+function dblcmp(pointA, facepoint0, facepoint1, facepoint2){
+    //redo the check same plane take face as a parameter. If positive, the same direction.
     var m = vectorV(facepoint1, facepoint0);
     var n = vectorV(facepoint2, facepoint0);
     var t = vectorV(pointA, facepoint0);
     return dotProduct(cross(m, n), t);
 }
+
 function triangles() {
     //find three first points.
     find_first_point();
@@ -220,15 +205,12 @@ function triangles() {
                 p = F[0];
                 q = F[1];
                 r = F[2];
-
             }
-            console.log("current edge:", p, q);
             if (T[generate_dic_key(p, q)] > 1) {
                 //do nothing
                 //console.log("check current dic:", generate_dic_key(p, q), ":", T[generate_dic_key(p, q)]);
             }
             else {
-
                 //find the corresponding triangle
                 var min_angle = 190;
                 var index_needed = 0;
@@ -285,18 +267,12 @@ function triangles() {
 
             }
         }
-
-
         console.log("Q is: ", Q);
         console.log("Z is: ", Z);
-        //break;
-
     }
     temp2 = Object.assign({}, triangle_dict);
     states.push(temp2);
-
 }
-
 
 function triangle_normal(point1, point2, point3) {
     var a1 = point2.x - point1.x;
@@ -336,13 +312,14 @@ function find_third_point() {
 function vectorV(pointA, pointB) {
     return {x: pointA.x - pointB.x, y: pointA.y - pointB.y, z: pointA.z - pointB.z};
 }
+
 function swap_points(the_array, index1, index2) {
     var temp;
     temp = the_array[index1];
     the_array[index1] = the_array[index2];
     the_array[index2] = temp;
-    //console.log(the_array);
 }
+
 function find_first_point() {
     var min_y = points[0].y;
     var index_needed = 0;
@@ -353,10 +330,8 @@ function find_first_point() {
         }
     }
     swap_points(points, index_needed, 0);
-    //console.log(points);
 }
 
-//console.log(find_first_point(points));f
 function find_second_point() {
     const normal = {x: 0, y: points[0].y, z: 0};
     var newVec = vectorV(points[1], points[0]);
@@ -372,16 +347,14 @@ function find_second_point() {
             index_needed = i;
             //console.log(index_needed);
         }
-
     }
-    console.log("second: ", index_needed);
     swap_points(points, index_needed, 1);
-    //console.log(points);
 }
 
 function dotProduct(pointA, pointB) {
     return (pointA.x * pointB.x + pointA.y * pointB.y + pointA.z * pointB.z);
 }
+
 function vlen(pointA) {
     return Math.sqrt(pointA.x * pointA.x + pointA.y * pointA.y + pointA.z * pointA.z);
 }
@@ -398,63 +371,4 @@ function cross(pointA, pointB) {
     var y = (pointA.z * pointB.x) - (pointA.x * pointB.z);
     var z = (pointA.x * pointB.y) - (pointA.y * pointB.x);
     return {x: x, y: y, z: z};
-}
-
-function equation_plane(point1, point2, point3) {
-    var a1 = point2.x - point1.x;
-    var b1 = point2.y - point1.y;
-    var c1 = point2.z - point1.z;
-    var a2 = point3.x - point1.x;
-    var b2 = point3.y - point1.y;
-    var c2 = point3.z - point1.z;
-    var a = b1 * c2 - b2 * c1;
-    var b = a2 * c1 - a1 * c2;
-    var c = a1 * b2 - b1 * a2;
-    var d = (-a * point1.x - b * point1.y - c * point1.z);
-    my_plane.a = a;
-    my_plane.b = b;
-    my_plane.c = c;
-    my_plane.d = d;
-    return my_plane;
-}
-function sign(p1, p2, p3, p4) {
-    equation_plane(p2, p3, p4);
-    check_value = my_plane.a * p1.x + my_plane.b * p1.y + my_plane.c * p1.z + my_plane.d;
-    if (check_value >= 0) {
-        return "L";
-    }
-    if (check_value <= 0) {
-        return "R";
-    }
-}
-
-var my_plane = {
-    a: 0,
-    b: 0,
-    c: 0,
-    d: 0
-};
-function brute_force() {
-    var side = [];
-    result_triangles = [];
-    for (i = 0; i < points.length - 2; i++) {
-        for (j = i + 1; j < points.length - 1; j++) {
-            for (k = j + 1; k < points.length; k++) {
-                if (!checkCollinear(points[i], points[j], points[k])) {
-                    //test all of the other points
-                    for (l = 0; l < points.length; l++) {
-                        if (l !== i && l !== j && l !== k) {
-                            side.push(sign(points[l], points[i], points[j], points[k]));
-                        }
-                    }
-                    var side_Set = new Set(side);
-                    if (Array.from(side_Set).length < 2) {
-                        result_triangles.push([i, j, k]);
-                    }
-                    side = [];
-                }
-            }
-        }
-    }
-    return result_triangles;
 }

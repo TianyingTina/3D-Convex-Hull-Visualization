@@ -30,64 +30,44 @@ function init_triangledict(){
     return temp_constructor;
 }
 
-//console.log("first",triangle_dict);
- // draw();
- // show();
-// window.setTimeout("", 1000);
-
-
-
 function construct_states(){
     init_triangledict();
     states = [];
-    //console.log("This is first:" , triangle_dict);
     states.push(triangle_dict);
     triangles();
 }
-// init_triangledict();
-// construct_states();
-// console.log(states);
-// init(0);
-// animate();
-
-
-
-
 
 function init(n){
-    //创建一个新的场景
+
     scene = new THREE.Scene();
-    //创建透视相机
+
     camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
-    //后面的参数分别是 透视角度，长宽比例，近视锥面，远视锥面
+
     var axes = new THREE.AxesHelper(20);
     //scene.add(axes);
 
      //addPlane();
      addPoints(points);
      scene.add(group);
-     //console.log(states.length);
+
      drawTriangles(states[n]);
 
-
-    //小于近视锥面的物体将不渲染，远于远视锥面的物体也不渲染
-    //设置相机位置与朝向
     camera.position.x = -30;
     camera.position.y = 40;
     camera.position.z = 30;
     camera.lookAt(scene.position);
 
-    //创建渲染器
+
     renderer = new THREE.WebGLRenderer();
     renderer.setClearColor(new THREE.Color(0xEEEEEE));//渲染器清除颜色 ：淡灰色
     renderer.setSize(window.innerWidth,window.innerHeight);
-    //在div内放置canvas
+
      document.getElementById("0").appendChild(renderer.domElement);
-    //渲染
+
    // renderer.render(scene, camera);
 
     stats = new Stats();
-     document.body.appendChild(stats.dom);//简单的直接添加的方法
+     document.body.appendChild(stats.dom);
 
 
     guiControl = new function(){
@@ -96,35 +76,36 @@ function init(n){
     item = gui.add(guiControl, 'rotationSpeed', 0,0.05);
 
     controls = new THREE.TrackballControls(camera, renderer.domElement);
-    controls.minDistance = 20.0;//最近距离
-    controls.maxDistance = 400.0;//最远距离
+    controls.minDistance = 20.0;
+    controls.maxDistance = 400.0;
     controls.dymnamicDampingFactor = 0.1;
 
 
 }
+
 function dispose_current_scence(){
     group = new THREE.Group();
 }
 
 function addPlane(){
-    var planeGeometry = new THREE.PlaneGeometry(60, 60);//框架 长60 宽20
+    var planeGeometry = new THREE.PlaneGeometry(60, 60);
     var planeMaterial = new THREE.MeshBasicMaterial({
         color: 0xcccccc,
         opacity: 10,
         transparent: true,
-    });//材质 单纯只有颜色的材质
+    });
     plane = new THREE.Mesh(planeGeometry, planeMaterial);//填充
 
-    //更改平面位置
-    plane.rotation.x = -0.5 * Math.PI;//按照x轴旋转90度
-    plane.position.x = 15;//向x正方向移动一点点
+    plane.rotation.x = -0.5 * Math.PI;
+    plane.position.x = 15;
     plane.position.y = 0;
     plane.position.z = 0;
 
     scene.add(plane);
 }
+
 function addPoints(point){
-    var point1 = new THREE.Vector3(point[0].x, point[0].y, point[0].z); //创建一个坐标点
+    var point1 = new THREE.Vector3(point[0].x, point[0].y, point[0].z);
 
     var sphereGeometry = new THREE.SphereGeometry(.1, 0, 0);
     var sphereMaterial = new THREE.MeshBasicMaterial({
@@ -146,6 +127,7 @@ function addPoints(point){
 
 
 }
+
 function drawTriangle(p1,p2,p3){
     // create just one triangle
     var vertices = new Float32Array([
@@ -211,20 +193,15 @@ function drawTriangles(triangle_List){
     }
 }
 
-
 function animate(){
     requestAnimationFrame(animate);
-    group.rotation.y += guiControl.rotationSpeed;//线框模型旋转
-    group.rotation.x += guiControl.rotationSpeed;//线框模型旋转
+    group.rotation.y += guiControl.rotationSpeed;
+    group.rotation.x += guiControl.rotationSpeed;
     controls.update();
     stats.update();
     renderer.render(scene,camera);
-
 }
-//window.onload = init;
-//create triangles
 
-//triangles();
 function triangles(){
     var result_triangles = [];
     var temp_triangle_dic = Object.assign({}, triangle_dict);
@@ -268,10 +245,6 @@ function triangles(){
     return result_triangles;
 }
 
-
-
-
-
 function dotProduct(pointA, pointB) {
     return (pointA.x * pointB.x + pointA.y * pointB.y + pointA.z * pointB.z);
 }
@@ -311,6 +284,7 @@ function equation_plane(point1, point2,point3) {
     my_plane.d = d;
     return my_plane;
 }
+
 function sign(p1,p2,p3,p4){
     equation_plane(p2,p3,p4);
     check_value = my_plane.a * p1.x + my_plane.b * p1.y + my_plane.c * p1.z + my_plane.d;
