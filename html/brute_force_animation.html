@@ -16,12 +16,6 @@
     </style>
 </head>
 <label name="steps" id = "steps">Choose a Step:</label>
-<!--<select>-->
-    <!--<option value="volvo">Volvo</option>-->
-    <!--<option value="saab">Saab</option>-->
-    <!--<option value="mercedes">Mercedes</option>-->
-    <!--<option value="audi">Audi</option>-->
-<!--</select>-->
 
 <script>
     createSelect();
@@ -96,7 +90,6 @@
     }
 </script>
 <button id = "b1" type="button" onclick="generate_points_then_disable()">Click me to generate 6 points.</button>
-<button id = "b2" type="button" onclick="draw_graph()">Click me to prepare points.</button>
 
 <body>
 <div id="0"></div>
@@ -106,20 +99,14 @@
 <script type="text/javascript" src="../scripts/brute_force_animation.js">
 </script>
 <script type="text/javascript">
-    //init();
-    function draw_graph(){
-        document.getElementById("b2").disabled=true;
+    function generate_points_then_disable(){
+        generate_points(6);
+        document.getElementById("b1").disabled=true;
         triangle_dict = init_triangledict();
         construct_states();
         addOptions();
         init(0);
         animate();
-
-
-    }
-    function generate_points_then_disable(){
-        generate_points(6);
-        document.getElementById("b1").disabled=true;
     }
 </script>
 

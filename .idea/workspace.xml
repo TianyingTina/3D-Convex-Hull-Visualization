@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afe07176-c022-463d-8b54-b0731e275bab" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/html/init_points_and_run_brute_force.html" afterPath="$PROJECT_DIR$/html/brute_force_animation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/brute_force_animation.html" afterPath="$PROJECT_DIR$/html/brute_force_animation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/gift_wrapping_animation.html" afterPath="$PROJECT_DIR$/html/gift_wrapping_animation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/incremental_construction_animation.html" afterPath="$PROJECT_DIR$/html/incremental_construction_animation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/quick_hull_animation.html" afterPath="$PROJECT_DIR$/html/quick_hull_animation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/simplex_incremental_construction_animation.html" afterPath="$PROJECT_DIR$/html/simplex_incremental_construction_animation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/gift_wrapping_animation.js" afterPath="$PROJECT_DIR$/scripts/gift_wrapping_animation.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,17 +22,49 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+            <state relative-caret-position="7">
+              <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="incremental_construction_animation.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/incremental_construction_animation.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="107" column="31" lean-forward="false" selection-start-line="107" selection-start-column="31" selection-end-line="107" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quick_hull_animation.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/quick_hull_animation.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="800">
+              <caret line="40" column="61" lean-forward="true" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
+              <folding>
+                <element signature="n#script#1;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simplex_incremental_construction_animation.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/simplex_incremental_construction_animation.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="102" column="31" lean-forward="false" selection-start-line="102" selection-start-column="31" selection-end-line="102" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -100,18 +136,19 @@
         <option value="$PROJECT_DIR$/html/my_page.html" />
         <option value="$PROJECT_DIR$/scripts/bruteforce.js" />
         <option value="$PROJECT_DIR$/scripts/gift_wrapping.js" />
-        <option value="$PROJECT_DIR$/html/gift_wrapping_animation.html" />
-        <option value="$PROJECT_DIR$/html/incremental_construction_animation.html" />
         <option value="$PROJECT_DIR$/html/init_points_and_run_brute_force.html" />
-        <option value="$PROJECT_DIR$/html/quick_hull_animation.html" />
-        <option value="$PROJECT_DIR$/html/simplex_incremental_construction_animation.html" />
         <option value="$PROJECT_DIR$/scripts/brute_force_animation.js" />
         <option value="$PROJECT_DIR$/scripts/generate_random_points.js" />
-        <option value="$PROJECT_DIR$/scripts/gift_wrapping_animation.js" />
         <option value="$PROJECT_DIR$/scripts/incremental_construction_animation.js" />
         <option value="$PROJECT_DIR$/scripts/quick_hull_animation.js" />
         <option value="$PROJECT_DIR$/scripts/simplex_incremental_construction_animation.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/html/brute_force_animation.html" />
+        <option value="$PROJECT_DIR$/html/gift_wrapping_animation.html" />
+        <option value="$PROJECT_DIR$/scripts/gift_wrapping_animation.js" />
+        <option value="$PROJECT_DIR$/html/incremental_construction_animation.html" />
+        <option value="$PROJECT_DIR$/html/quick_hull_animation.html" />
+        <option value="$PROJECT_DIR$/html/simplex_incremental_construction_animation.html" />
       </list>
     </option>
   </component>
@@ -223,20 +260,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
-    <configuration default="false" name="quick_hull_animation.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CGproject/html/quick_hull_animation.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.simplex_incremental_construction_animation.html">
     <configuration default="false" name="gift_wrapping_animation.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CGproject/html/gift_wrapping_animation.html">
       <method />
     </configuration>
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CGproject/index.html">
       <method />
     </configuration>
-    <configuration default="false" name="gift_wrapping.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/scripts/algorithms/gift_wrapping.js" working-dir="$PROJECT_DIR$/scripts">
+    <configuration default="false" name="brute_force_animation.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CGproject/html/brute_force_animation.html">
       <method />
     </configuration>
-    <configuration default="false" name="gift_wrapping_animation.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="gift_wrapping_animation.js" working-dir="$PROJECT_DIR$/scripts">
+    <configuration default="false" name="quick_hull_animation.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CGproject/html/quick_hull_animation.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="simplex_incremental_construction_animation.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CGproject/html/simplex_incremental_construction_animation.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -306,19 +343,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.quick_hull_animation.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.gift_wrapping_animation.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.gift_wrapping.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.gift_wrapping_animation.js" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.gift_wrapping_animation.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.brute_force_animation.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.quick_hull_animation.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.simplex_incremental_construction_animation.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.gift_wrapping_animation.html" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.gift_wrapping_animation.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.gift_wrapping.js" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.quick_hull_animation.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.simplex_incremental_construction_animation.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.quick_hull_animation.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.gift_wrapping_animation.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.brute_force_animation.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -337,17 +374,18 @@
       <workItem from="1619707021423" duration="33046000" />
       <workItem from="1619920622124" duration="3202000" />
       <workItem from="1620081525918" duration="62871000" />
-      <workItem from="1620338644015" duration="7095000" />
+      <workItem from="1620338644015" duration="8381000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117627000" />
+    <option name="totallyTimeSpent" value="118913000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="969" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13954712" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13954712" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30887574" sideWeight="0.52606636" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32781065" sideWeight="0.47393364" order="2" side_tool="false" content_ui="tabs" />
@@ -643,50 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/incremental_construction_animation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2020">
-          <caret line="101" column="18" lean-forward="false" selection-start-line="101" selection-start-column="18" selection-end-line="101" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/brute_force_animation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="101" column="18" lean-forward="false" selection-start-line="101" selection-start-column="18" selection-end-line="101" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/simplex_incremental_construction_animation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="88" column="18" lean-forward="false" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/quick_hull_animation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="101" column="18" lean-forward="false" selection-start-line="101" selection-start-column="18" selection-end-line="101" selection-end-column="18" />
-          <folding>
-            <element signature="n#script#1;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/gift_wrapping_animation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="95" column="18" lean-forward="false" selection-start-line="95" selection-start-column="18" selection-end-line="95" selection-end-column="18" />
-          <folding>
-            <element signature="n#script#1;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/brute_force_animation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
@@ -822,36 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/gift_wrapping_animation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!block;n#construct_states#0" expanded="false" />
-            <element signature="n#!!block;n#init#0" expanded="false" />
-            <element signature="n#!!block;n#dispose_current_scence#0" expanded="false" />
-            <element signature="n#!!block;n#addPoints#0" expanded="false" />
-            <element signature="n#!!block;n#drawTriangles#0" expanded="false" />
-            <element signature="n#!!block;n#animate#0" expanded="false" />
-            <element signature="n#!!block;n#generate_dic_key#0" expanded="false" />
-            <element signature="n#!!block;n#tKey#0" expanded="false" />
-            <element signature="n#!!block;n#init_T#0" expanded="false" />
-            <element signature="n#!!block;n#dblcmp#0" expanded="false" />
-            <element signature="n#!!block;n#triangles#0" expanded="false" />
-            <element signature="n#!!block;n#triangle_normal#0" expanded="false" />
-            <element signature="n#!!block;n#find_third_point#0" expanded="false" />
-            <element signature="n#!!block;n#vectorV#0" expanded="false" />
-            <element signature="n#!!block;n#swap_points#0" expanded="false" />
-            <element signature="n#!!block;n#find_first_point#0" expanded="false" />
-            <element signature="n#!!block;n#find_second_point#0" expanded="false" />
-            <element signature="n#!!block;n#dotProduct#0" expanded="false" />
-            <element signature="n#!!block;n#vlen#0" expanded="false" />
-            <element signature="n#!!block;n#checkCollinear#0" expanded="false" />
-            <element signature="n#!!block;n#cross#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/algorithms/gift_wrapping.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2025">
@@ -877,14 +841,87 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        <state relative-caret-position="7">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/brute_force_animation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-427">
+          <caret line="17" column="55" lean-forward="false" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/gift_wrapping_animation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-668">
+          <caret line="185" column="62" lean-forward="false" selection-start-line="185" selection-start-column="62" selection-end-line="185" selection-end-column="62" />
+          <folding>
+            <element signature="n#!!block;n#construct_states#0" expanded="false" />
+            <element signature="n#!!block;n#init#0" expanded="false" />
+            <element signature="n#!!block;n#dispose_current_scence#0" expanded="false" />
+            <element signature="n#!!block;n#addPoints#0" expanded="false" />
+            <element signature="n#!!block;n#drawTriangles#0" expanded="false" />
+            <element signature="n#!!block;n#animate#0" expanded="false" />
+            <element signature="n#!!block;n#generate_dic_key#0" expanded="false" />
+            <element signature="n#!!block;n#tKey#0" expanded="false" />
+            <element signature="n#!!block;n#init_T#0" expanded="false" />
+            <element signature="n#!!block;n#dblcmp#0" expanded="false" />
+            <element signature="n#!!block;n#triangle_normal#0" expanded="false" />
+            <element signature="n#!!block;n#find_third_point#0" expanded="false" />
+            <element signature="n#!!block;n#vectorV#0" expanded="false" />
+            <element signature="n#!!block;n#swap_points#0" expanded="false" />
+            <element signature="n#!!block;n#find_first_point#0" expanded="false" />
+            <element signature="n#!!block;n#find_second_point#0" expanded="false" />
+            <element signature="n#!!block;n#dotProduct#0" expanded="false" />
+            <element signature="n#!!block;n#vlen#0" expanded="false" />
+            <element signature="n#!!block;n#checkCollinear#0" expanded="false" />
+            <element signature="n#!!block;n#cross#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/gift_wrapping_animation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="108" column="18" lean-forward="true" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
+          <folding>
+            <element signature="n#script#1;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/incremental_construction_animation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="107" column="31" lean-forward="false" selection-start-line="107" selection-start-column="31" selection-end-line="107" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/quick_hull_animation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="40" column="61" lean-forward="true" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
+          <folding>
+            <element signature="n#script#1;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/simplex_incremental_construction_animation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="102" column="31" lean-forward="false" selection-start-line="102" selection-start-column="31" selection-end-line="102" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>

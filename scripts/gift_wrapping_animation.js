@@ -184,7 +184,6 @@ function triangles() {
     temp2 = Object.assign({}, triangle_dict);
     states.push(temp2);
     triangle_dict[key_t] = [false, true, "rgb(79, 114, 240)"];
-    brute_force();
     while (Q.length > 0) {
         F = Q.pop();
         console.log("Q.pop: ", F);
