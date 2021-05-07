@@ -255,7 +255,7 @@ function drawTriangles(triangle_List){
                     geometry.addAttribute( 'position', new THREE.BufferAttribute( vertices, 3 ) );
                     geometry.setIndex(new THREE.BufferAttribute(faces, 1));
                     const material = new THREE.MeshBasicMaterial({color:triangle_List[list_key][2],opacity: 0.2,
-                        transparent: true,});
+                        transparent: false,});
                     var line = new THREE.Line (geometry, material);
                     var triangle = new THREE.Mesh(geometry, material);
                     group.add(line);

@@ -1,18 +1,169 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-        "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
-<head>
-    <title>Choose an algorithm to construct the Convex Hull</title>
-</head>
+<title>3D Convex Hull</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+    body {
+        font-family: "Times New Roman", Georgia, Serif;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: "Playfair Display";
+        letter-spacing: 5px;
+    }
+</style>
 <body>
-<a href="html/init_points_and_run_brute_force.html">Brute Force</a>
-</br>
-<a href='html/gift_wrapping_animation.html'>Gift Wrapping</a>
-</br>
-<a href="html/simplex_incremental_construction_animation.html">Simple Incremental Construction</a>
-</br>
-<a href="html/incremental_construction_animation.html">Incremental Construction</a>
-</br>
-<a href="html/quick_hull_animation.html">Quick Hull</a>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+    <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+        <a href="#home" class="w3-bar-item w3-button">Construct 3D Convex Hull</a>
+        <!-- Right-sided navbar links. Hide them on small screens -->
+        <div class="w3-right w3-hide-small">
+            <a href="#about" class="w3-bar-item w3-button">About</a>
+            <a href="#menu" class="w3-bar-item w3-button">Algorithms</a>
+            <a href="#contact" class="w3-bar-item w3-button">Author and Contact</a>
+        </div>
+    </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+    <img class="w3-image" src="./imgs/d5e3G.png" alt="Hamburger Catering" width="600" height="600">
+    <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+        <h1 class="w3-xxlarge">CS-GY6703 Computational Geometry Final Project</h1>
+        <h1 class="w3-xxlarge">Construct 3D Convex Hull</h1>
+    </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+    <!-- About Section -->
+    <div class="w3-row w3-padding-64" id="about">
+        <div class="w3-col m6 w3-padding-large w3-hide-small">
+            <img src="./imgs/2dConvexHull.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600"
+                 height="750">
+        </div>
+
+        <div class="w3-col m6 w3-padding-large">
+            <h1 class="w3-center">About 3-Dimensional Convex Hull</h1><br>
+            <h5 class="w3-center">From Wikipedia</h5>
+            <p class="w3-large">In geometry, the convex hull or convex envelope or convex closure of a shape is the smallest convex set that contains it. The convex hull may be defined either as the intersection of all convex sets containing a given subset of a Euclidean space, or equivalently as the set of all convex combinations of points in the subset. For a bounded subset of the plane, the convex hull may be visualized as the shape enclosed by a rubber band stretched around the subset.
+
+                  </p>
+            <p class="w3-large">Convex hulls of open sets are open, and convex hulls of compact sets are compact. Every compact convex set is the convex hull of its extreme points. The convex hull operator is an example of a closure operator, and every antimatroid can be represented by applying this closure operator to finite sets of points. The algorithmic problems of finding the convex hull of a finite set of points in the plane or other low-dimensional Euclidean spaces, and its dual problem of intersecting half-spaces, are fundamental problems of computational geometry. They can be solved in time O(nlog n) for two or three dimensional point sets.
+            </p>
+                 </div>
+    </div>
+
+    <hr>
+
+    <!-- Menu Section -->
+    <div class="w3-row w3-padding-64" id="menu">
+        <div class="w3-col l6 w3-padding-large">
+            <h1 class="w3-center">The Algorithms</h1><br>
+            <h4><a href="html/init_points_and_run_brute_force.html">Brute Force</a></h4>
+            <p class="w3-text-grey">For every triangles/face, check if the current triangle is on the convex hull
+                by observing all of the remaining points are on the same side of this triangle/face.
+            </p>
+            <p class="w3-text-grey">The running time is O(n^4).</p>
+            <p class="w3-text-grey">Data Structure: An array to store the points and a array to store the correct convex
+                hull triangles/faces. </p><br>
+
+            <h4><a href="html/simplex_incremental_construction_animation.html">Simple Incremental Construction</a></h4>
+            <p class="w3-text-grey"> Construct the initial tetrahedron: The initial tetrahedron consists of four points.
+                These four points are required that any three points are not collinear, and the four points are not
+                coplanar. Otherwise,
+                the initial tetrahedron cannot be generated, which will cause problems in the following incremental
+                construction of the convex hull.
+                If there are no such four points exist in the point set, the convex hull cannot be constructed and
+                returns Null.</p>
+            <p class="w3-text-grey"> Add each vertex incrementally:
+                Find all the faces that are visible to the vertex.
+                The visibility of the face can be determined by the normal direction of the face.
+                First calculate the normal direction N of the face, and then calculate the dot product of N and the
+                vector that any point in this face to the new added point.
+                If the product is greater than zero, then the point and the face are visible to each other, that is, the
+                face needs to be
+                removed. In the actual algorithm, this step should be completed by sequentially calculating the
+                visibility of all the faces with the current point, but
+                the efficiency may be very low.</p>
+            <p class="w3-text-grey">The running time is O(n^2).</p>
+            <p class="w3-text-grey">Data Structure: An array to store the points and an array to store the correct
+                convex hull triangles/faces.</p><br>
+            <h4><a href="html/incremental_construction_animation.html">Advanced Incremental Construction</a></h4>
+            <p class="w3-text-grey">The same as the simple one. The improved place is that in this experiment,
+                using depth-first search method, and once finding the first visible face of the new added point, then we
+                can find
+                all visible faces through the connection relationship between the faces.</p>
+            <p class="w3-text-grey">The running time is O(n^2).</p>
+            <p class="w3-text-grey">Data Structure: An array to store the points, an array to store the correct convex
+                hull triangles/faces, and a 2D array to store the edges.</p><br>
+
+            <h4><a href="html/quick_hull_animation.html">Quick Hull</a></h4>
+            <p class="w3-text-grey">Based on the Advanced Incremental Construction Algorithm, for the first three points
+                which construct a face that
+                dividing the points in two halves P1 and P2. First find 2 points which has the longest distance, connect
+                them.
+                Second find the point that has the longest distance with the connected edge. These three points consist
+                first triangle/face of the initial tetrahedron.
+                Then recursively find CH(P1) and CH(P2) then merge them. How I merge here is just remove the original
+                initial triangle. Here I use the same dfs as the advanced incremental construction.</p>
+            <p class="w3-text-grey">The running time is O(nlogn).</p>
+            <p class="w3-text-grey">Data Structure: An array to store the points, an array to store the correct convex
+                hull triangles/faces, and a 2D array to store the edges.</p><br>
+
+            <h4><a href='html/gift_wrapping_animation.html'>Gift Wrapping</a></h4>
+            <p class="w3-text-grey">Find the first face on the convex hull:
+                The first face is not a randomly picked face, it is necessary to ensure that this surface is a surface
+                on the convex hull. First, the point with the smallest y coordinate
+                must be a point on the convex hull, and this point is on the the first face on the convex hull.
+                The second point is the point with the smallest angle between the connection line with it and the first
+                point and the xz plane.
+                Now consider the tangent plane of the conical surface passing through the first point and the second
+                point.
+                The third point is the point that forms the smallest angle that the triangle/face of it and the previous
+                two points with the tangent plane with the previous two points.
+                Obviously, the above three points is a surface on the convex hull.</p>
+            <p class="w3-text-grey">gift "Wrapped":
+                The wrapping starts from any currently unclosed triangle edge. Select any of its unclosed edges,
+                and use that edge as a basis. Select a point from the remaining vertices so that the new face formed by the unclosed edge
+                and the vertex is the same as the previously dependent face
+                The film angle is the smallest. Obviously, the face piece selected in this way is also the face on the
+                convex hull.</p>
+            <p class="w3-text-grey">The running time is O(n*F).</p>
+            <p class="w3-text-grey">Data Structure: An array to store the points, an array to store the correct convex
+                hull triangles/faces, and a queue to store the triangles which needed to be wrapped/not entirely closed.</p>
+        </div>
+
+        <div class="w3-col l6 w3-padding-large">
+            <img src="./imgs/algorithm.jpeg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- Contact Section -->
+    <div class="w3-container w3-padding-64" id="contact">
+        <h1>Contact</h1><br>
+        <p>Tianying Tina Zhang</p>
+        <p>tz1416@nyu.edu</p>
+        <p>Project Repository: <a href="http://github.com/TianyingTina/3DconvexHull">github.com/TianyingTina/3DconvexHull</a> </p>
+        <p class="w3-text-blue-grey w3-large"><b>New York University CS-GY 6703 Computational Geometry Final Project</b></p>
+
+    </div>
+
+    <!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank"
+                     class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
 </body>
 </html>
