@@ -2,10 +2,10 @@
 ### Project goal
 Implemented and visualized 5 different algorithms to visualized the step of how to construct a convex hull in 3D space with Three.js.
 
-###Language 
+### Language 
 JavaScript
 
-###Library 
+### Library 
 Three.js (For visualization)
 
 ### Demo and Report
