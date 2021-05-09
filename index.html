@@ -103,16 +103,18 @@
             <p class="w3-text-grey">Data Structure: An array to store the points, an array to store the correct convex
                 hull triangles/faces, and a 2D array to store the edges.</p><br>
 
-            <h4><a href="html/quick_hull_animation.html">Quick Hull</a></h4>
+            <h4><a href="html/quick_hull_animation.html">Quick Hull(Not Real)</a></h4>
             <p class="w3-text-grey">Based on the Advanced Incremental Construction Algorithm, for the first three points
                 which construct a face that
                 dividing the points in two halves P1 and P2. First find 2 points which has the longest distance, connect
                 them.
                 Second find the point that has the longest distance with the connected edge. These three points consist
                 first triangle/face of the initial tetrahedron.
-                Then recursively find CH(P1) and CH(P2) then merge them. How I merge here is just remove the original
-                initial triangle. Here I use the same dfs as the advanced incremental construction.</p>
-            <p class="w3-text-grey">The running time is O(nlogn).</p>
+                Then recursively find CH(P1) and CH(P2) then merge them.
+                I met problem on merging the polygons so after initialize the first triangle face, I still use the dfs way.
+                In the algorithm side, it seems nothing improved, but in the visualization side, it saves a lot of rendering process.
+                </p>
+            <p class="w3-text-grey">The running time is O(n^2) but if a real quickhull can be O(nlogn)..</p>
             <p class="w3-text-grey">Data Structure: An array to store the points, an array to store the correct convex
                 hull triangles/faces, and a 2D array to store the edges.</p><br>
 

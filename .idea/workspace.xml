@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afe07176-c022-463d-8b54-b0731e275bab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/brute_force_animation.html" afterPath="$PROJECT_DIR$/html/brute_force_animation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/gift_wrapping_animation.html" afterPath="$PROJECT_DIR$/html/gift_wrapping_animation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/incremental_construction_animation.html" afterPath="$PROJECT_DIR$/html/incremental_construction_animation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/quick_hull_animation.html" afterPath="$PROJECT_DIR$/html/quick_hull_animation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/simplex_incremental_construction_animation.html" afterPath="$PROJECT_DIR$/html/simplex_incremental_construction_animation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/gift_wrapping_animation.js" afterPath="$PROJECT_DIR$/scripts/gift_wrapping_animation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,12 +17,12 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7">
-              <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            <state relative-caret-position="-549">
+              <caret line="105" column="76" lean-forward="false" selection-start-line="105" selection-start-column="76" selection-end-line="105" selection-end-column="76" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -40,7 +36,7 @@
       <file leaf-file-name="incremental_construction_animation.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/incremental_construction_animation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
+            <state relative-caret-position="2140">
               <caret line="107" column="31" lean-forward="false" selection-start-line="107" selection-start-column="31" selection-end-line="107" selection-end-column="31" />
               <folding />
             </state>
@@ -51,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/html/quick_hull_animation.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="800">
-              <caret line="40" column="61" lean-forward="true" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
+              <caret line="40" column="61" lean-forward="false" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
               <folding>
                 <element signature="n#script#1;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -59,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="simplex_incremental_construction_animation.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="simplex_incremental_construction_animation.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/simplex_incremental_construction_animation.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
@@ -142,13 +138,13 @@
         <option value="$PROJECT_DIR$/scripts/incremental_construction_animation.js" />
         <option value="$PROJECT_DIR$/scripts/quick_hull_animation.js" />
         <option value="$PROJECT_DIR$/scripts/simplex_incremental_construction_animation.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/html/brute_force_animation.html" />
         <option value="$PROJECT_DIR$/html/gift_wrapping_animation.html" />
         <option value="$PROJECT_DIR$/scripts/gift_wrapping_animation.js" />
         <option value="$PROJECT_DIR$/html/incremental_construction_animation.html" />
         <option value="$PROJECT_DIR$/html/quick_hull_animation.html" />
         <option value="$PROJECT_DIR$/html/simplex_incremental_construction_animation.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -221,8 +217,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -375,11 +371,12 @@
       <workItem from="1619920622124" duration="3202000" />
       <workItem from="1620081525918" duration="62871000" />
       <workItem from="1620338644015" duration="8719000" />
+      <workItem from="1620593722886" duration="711000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119251000" />
+    <option name="totallyTimeSpent" value="119962000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="969" extended-state="6" />
@@ -420,7 +417,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2100">
           <caret line="105" column="60" lean-forward="true" selection-start-line="105" selection-start-column="60" selection-end-line="105" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -436,31 +432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3540">
           <caret line="179" column="57" lean-forward="true" selection-start-line="179" selection-start-column="57" selection-end-line="179" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#47#0" expanded="false" />
-            <element signature="e#286#316#0" expanded="false" />
-            <element signature="n#!!block;n#construct_states#0" expanded="false" />
-            <element signature="n#!!block;n#triangles#0" expanded="false" />
-            <element signature="e#3371#3393#0" expanded="false" />
-            <element signature="n#!!block;n#init#0" expanded="false" />
-            <element signature="n#!!block;n#dispose_current_scence#0" expanded="false" />
-            <element signature="n#!!block;n#addPoints#0" expanded="false" />
-            <element signature="n#!!block;n#drawTriangles#0" expanded="false" />
-            <element signature="n#!!block;n#animate#0" expanded="false" />
-            <element signature="n#!!block;n#init_F#0" expanded="false" />
-            <element signature="e#7725#7751#0" expanded="false" />
-            <element signature="n#!!block;n#init_g#0" expanded="false" />
-            <element signature="e#7870#7986#0" expanded="false" />
-            <element signature="n#!!block;n#dblcmp#0" expanded="false" />
-            <element signature="n#!!block;n#deal#0" expanded="false" />
-            <element signature="n#!!block;n#dfs#0" expanded="false" />
-            <element signature="n#!!block;n#dotProduct#0" expanded="false" />
-            <element signature="n#!!block;n#cross#0" expanded="false" />
-            <element signature="n#!!block;n#vectorV#0" expanded="false" />
-            <element signature="n#!!block;n#checkCollinear#0" expanded="false" />
-            <element signature="n#!!block;n#check_validation#0" expanded="false" />
-            <element signature="n#!!block;n#swap_points#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -468,9 +439,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1320">
           <caret line="68" column="27" lean-forward="false" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#47#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -478,28 +446,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1300">
           <caret line="67" column="22" lean-forward="true" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#47#0" expanded="false" />
-            <element signature="n#!!block;n#init#0" expanded="false" />
-            <element signature="n#!!block;n#addPlane#0" expanded="false" />
-            <element signature="n#!!block;n#addPoints#0" expanded="false" />
-            <element signature="n#!!block;n#drawTriangle#0" expanded="false" />
-            <element signature="n#!!block;n#drawTriangles#0" expanded="false" />
-            <element signature="n#!!block;n#animate#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_trilist.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#47#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_trilist.js" />
     <entry file="file://$PROJECT_DIR$/scripts/generate_random_points.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="760">
@@ -512,7 +462,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2260">
           <caret line="113" column="27" lean-forward="true" selection-start-line="113" selection-start-column="27" selection-end-line="113" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -520,29 +469,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#47#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/display_points.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/display_points.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#47#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/display_points.html" />
+    <entry file="file://$PROJECT_DIR$/scripts/display_points.js" />
     <entry file="file://$PROJECT_DIR$/scripts/generate_random_points.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -555,29 +486,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#47#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/display_points.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/display_points.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#47#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/display_points.html" />
+    <entry file="file://$PROJECT_DIR$/scripts/display_points.js" />
     <entry file="file://$PROJECT_DIR$/scripts/generate_random_points.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -617,40 +530,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/display_points.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#47#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/display_points.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_trilist.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="62" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#47#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/display_points.js" />
+    <entry file="file://$PROJECT_DIR$/scripts/display_points.html" />
+    <entry file="file://$PROJECT_DIR$/scripts/test_trilist.js" />
     <entry file="file://$PROJECT_DIR$/scripts/algorithms/incremental_construction.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
           <caret line="200" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -658,7 +544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2798">
           <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="64" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -666,9 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#47#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -677,7 +559,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -685,25 +566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
           <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#47#0" expanded="false" />
-            <element signature="n#!!block;n#init_triangledict#0" expanded="false" />
-            <element signature="n#!!block;n#construct_states#0" expanded="false" />
-            <element signature="n#!!block;n#init#0" expanded="false" />
-            <element signature="n#!!block;n#dispose_current_scence#0" expanded="false" />
-            <element signature="n#!!block;n#addPlane#0" expanded="false" />
-            <element signature="n#!!block;n#addPoints#0" expanded="false" />
-            <element signature="n#!!block;n#drawTriangle#0" expanded="false" />
-            <element signature="n#!!block;n#drawTriangles#0" expanded="false" />
-            <element signature="n#!!block;n#animate#0" expanded="false" />
-            <element signature="n#!!block;n#triangles#0" expanded="false" />
-            <element signature="n#!!block;n#dotProduct#0" expanded="false" />
-            <element signature="n#!!block;n#cross#0" expanded="false" />
-            <element signature="n#!!block;n#vectorV#0" expanded="false" />
-            <element signature="n#!!block;n#checkCollinear#0" expanded="false" />
-            <element signature="n#!!block;n#equation_plane#0" expanded="false" />
-            <element signature="n#!!block;n#sign#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -719,31 +581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="860">
           <caret line="333" column="1" lean-forward="true" selection-start-line="333" selection-start-column="1" selection-end-line="333" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#47#0" expanded="false" />
-            <element signature="e#286#316#0" expanded="false" />
-            <element signature="n#!!block;n#construct_states#0" expanded="false" />
-            <element signature="n#!!block;n#triangles#0" expanded="false" />
-            <element signature="e#3371#3393#0" expanded="false" />
-            <element signature="n#!!block;n#init#0" expanded="false" />
-            <element signature="n#!!block;n#dispose_current_scence#0" expanded="false" />
-            <element signature="n#!!block;n#addPoints#0" expanded="false" />
-            <element signature="n#!!block;n#drawTriangles#0" expanded="false" />
-            <element signature="n#!!block;n#animate#0" expanded="false" />
-            <element signature="n#!!block;n#init_F#0" expanded="false" />
-            <element signature="e#7725#7751#0" expanded="false" />
-            <element signature="n#!!block;n#init_g#0" expanded="false" />
-            <element signature="e#7870#7986#0" expanded="false" />
-            <element signature="n#!!block;n#dblcmp#0" expanded="false" />
-            <element signature="n#!!block;n#deal#0" expanded="false" />
-            <element signature="n#!!block;n#dfs#0" expanded="false" />
-            <element signature="n#!!block;n#dotProduct#0" expanded="false" />
-            <element signature="n#!!block;n#cross#0" expanded="false" />
-            <element signature="n#!!block;n#vectorV#0" expanded="false" />
-            <element signature="n#!!block;n#checkCollinear#0" expanded="false" />
-            <element signature="n#!!block;n#check_validation#0" expanded="false" />
-            <element signature="n#!!block;n#swap_points#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -751,33 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1000">
           <caret line="383" column="1" lean-forward="false" selection-start-line="383" selection-start-column="1" selection-end-line="383" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#47#0" expanded="false" />
-            <element signature="e#279#309#0" expanded="false" />
-            <element signature="n#!!block;n#construct_states#0" expanded="false" />
-            <element signature="n#!!block;n#triangles#0" expanded="false" />
-            <element signature="e#3648#3670#0" expanded="false" />
-            <element signature="n#!!block;n#pre_process_points#0" expanded="false" />
-            <element signature="n#!!block;n#pre_process_triangle#0" expanded="false" />
-            <element signature="n#!!block;n#init#0" expanded="false" />
-            <element signature="n#!!block;n#dispose_current_scence#0" expanded="false" />
-            <element signature="n#!!block;n#addPoints#0" expanded="false" />
-            <element signature="n#!!block;n#drawTriangles#0" expanded="false" />
-            <element signature="n#!!block;n#animate#0" expanded="false" />
-            <element signature="n#!!block;n#init_F#0" expanded="false" />
-            <element signature="e#9288#9314#0" expanded="false" />
-            <element signature="n#!!block;n#init_g#0" expanded="false" />
-            <element signature="e#9434#9550#0" expanded="false" />
-            <element signature="n#!!block;n#dblcmp#0" expanded="false" />
-            <element signature="n#!!block;n#deal#0" expanded="false" />
-            <element signature="n#!!block;n#dfs#0" expanded="false" />
-            <element signature="n#!!block;n#dotProduct#0" expanded="false" />
-            <element signature="n#!!block;n#cross#0" expanded="false" />
-            <element signature="n#!!block;n#vectorV#0" expanded="false" />
-            <element signature="n#!!block;n#checkCollinear#0" expanded="false" />
-            <element signature="n#!!block;n#check_validation#0" expanded="false" />
-            <element signature="n#!!block;n#swap_points#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -785,7 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1309">
           <caret line="138" column="42" lean-forward="false" selection-start-line="138" selection-start-column="42" selection-end-line="138" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -820,35 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2025">
           <caret line="301" column="44" lean-forward="true" selection-start-line="301" selection-start-column="44" selection-end-line="301" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#46#0" expanded="false" />
-            <element signature="n#!!block;n#triangle_normal#0" expanded="false" />
-            <element signature="n#!!block;n#find_third_point#0" expanded="false" />
-            <element signature="n#!!block;n#vectorV#0" expanded="false" />
-            <element signature="n#!!block;n#swap_points#0" expanded="false" />
-            <element signature="n#!!block;n#find_first_point#0" expanded="false" />
-            <element signature="n#!!block;n#find_second_point#0" expanded="false" />
-            <element signature="n#!!block;n#dotProduct#0" expanded="false" />
-            <element signature="n#!!block;n#vlen#0" expanded="false" />
-            <element signature="n#!!block;n#checkCollinear#0" expanded="false" />
-            <element signature="n#!!block;n#cross#0" expanded="false" />
-            <element signature="n#!!block;n#equation_plane#0" expanded="false" />
-            <element signature="n#!!block;n#sign#0" expanded="false" />
-            <marker date="1620329608322" expanded="true" signature="3670:3999" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7">
-          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -856,7 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-427">
           <caret line="17" column="55" lean-forward="false" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -864,28 +643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-668">
           <caret line="185" column="62" lean-forward="false" selection-start-line="185" selection-start-column="62" selection-end-line="185" selection-end-column="62" />
-          <folding>
-            <element signature="n#!!block;n#construct_states#0" expanded="false" />
-            <element signature="n#!!block;n#init#0" expanded="false" />
-            <element signature="n#!!block;n#dispose_current_scence#0" expanded="false" />
-            <element signature="n#!!block;n#addPoints#0" expanded="false" />
-            <element signature="n#!!block;n#drawTriangles#0" expanded="false" />
-            <element signature="n#!!block;n#animate#0" expanded="false" />
-            <element signature="n#!!block;n#generate_dic_key#0" expanded="false" />
-            <element signature="n#!!block;n#tKey#0" expanded="false" />
-            <element signature="n#!!block;n#init_T#0" expanded="false" />
-            <element signature="n#!!block;n#dblcmp#0" expanded="false" />
-            <element signature="n#!!block;n#triangle_normal#0" expanded="false" />
-            <element signature="n#!!block;n#find_third_point#0" expanded="false" />
-            <element signature="n#!!block;n#vectorV#0" expanded="false" />
-            <element signature="n#!!block;n#swap_points#0" expanded="false" />
-            <element signature="n#!!block;n#find_first_point#0" expanded="false" />
-            <element signature="n#!!block;n#find_second_point#0" expanded="false" />
-            <element signature="n#!!block;n#dotProduct#0" expanded="false" />
-            <element signature="n#!!block;n#vlen#0" expanded="false" />
-            <element signature="n#!!block;n#checkCollinear#0" expanded="false" />
-            <element signature="n#!!block;n#cross#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -893,15 +650,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
           <caret line="108" column="18" lean-forward="true" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
-          <folding>
-            <element signature="n#script#1;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/incremental_construction_animation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
+        <state relative-caret-position="2140">
           <caret line="107" column="31" lean-forward="false" selection-start-line="107" selection-start-column="31" selection-end-line="107" selection-end-column="31" />
           <folding />
         </state>
@@ -910,7 +664,7 @@
     <entry file="file://$PROJECT_DIR$/html/quick_hull_animation.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="800">
-          <caret line="40" column="61" lean-forward="true" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
+          <caret line="40" column="61" lean-forward="false" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
           <folding>
             <element signature="n#script#1;n#html#0;n#!!top" expanded="false" />
           </folding>
@@ -922,6 +676,19 @@
         <state relative-caret-position="252">
           <caret line="102" column="31" lean-forward="false" selection-start-line="102" selection-start-column="31" selection-end-line="102" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-549">
+          <caret line="105" column="76" lean-forward="false" selection-start-line="105" selection-start-column="76" selection-end-line="105" selection-end-column="76" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
