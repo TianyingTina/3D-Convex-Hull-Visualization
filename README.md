@@ -17,4 +17,4 @@ Report@[3D Convex Hull Demo](https://tianyingtina.github.io/3D-Convex-Hull-Visua
 ### Presentation Slide
 pptx@[3D Convex Slide](https://github.com/TianyingTina/3D-Convex-Hull-Visualization/blob/master/Construct%20Convex%20Hull%20in%203-Dimensional%20space.pptx)
 
-pdf@[3D Convex Slide]()https://github.com/TianyingTina/3D-Convex-Hull-Visualization/blob/master/Construct%20Convex%20Hull%20in%203-Dimensional%20space.pdf)
+pdf@[3D Convex Slide](https://github.com/TianyingTina/3D-Convex-Hull-Visualization/blob/master/Construct%20Convex%20Hull%20in%203-Dimensional%20space.pdf)
