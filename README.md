@@ -11,7 +11,7 @@ Three.js (For visualization)
 ### Demo and Report
 You can run the demo@[3D Convex Hull Demo](https://tianyingtina.github.io/3D-Convex-Hull-Visualization/)
 
-Report@[3D Convex Hull Demo](https://tianyingtina.github.io/3D-Convex-Hull-Visualization/)
+Report@[3D Convex Hull Report](https://tianyingtina.github.io/3D-Convex-Hull-Visualization/)
 
 
 ### Presentation Slide
