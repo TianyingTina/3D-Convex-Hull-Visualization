@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afe07176-c022-463d-8b54-b0731e275bab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,8 +20,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-549">
-              <caret line="105" column="76" lean-forward="false" selection-start-line="105" selection-start-column="76" selection-end-line="105" selection-end-column="76" />
+            <state relative-caret-position="1320">
+              <caret line="66" column="53" lean-forward="true" selection-start-line="66" selection-start-column="53" selection-end-line="66" selection-end-column="53" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -256,7 +255,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.simplex_incremental_construction_animation.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration default="false" name="gift_wrapping_animation.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CGproject/html/gift_wrapping_animation.html">
       <method />
     </configuration>
@@ -347,11 +346,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.simplex_incremental_construction_animation.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.quick_hull_animation.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.gift_wrapping_animation.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.brute_force_animation.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.simplex_incremental_construction_animation.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.quick_hull_animation.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.gift_wrapping_animation.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.brute_force_animation.html" />
       </list>
     </recent_temporary>
   </component>
@@ -371,12 +370,12 @@
       <workItem from="1619920622124" duration="3202000" />
       <workItem from="1620081525918" duration="62871000" />
       <workItem from="1620338644015" duration="8719000" />
-      <workItem from="1620593722886" duration="711000" />
+      <workItem from="1620593722886" duration="1735000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119962000" />
+    <option name="totallyTimeSpent" value="120986000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="969" extended-state="6" />
@@ -681,8 +680,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-549">
-          <caret line="105" column="76" lean-forward="false" selection-start-line="105" selection-start-column="76" selection-end-line="105" selection-end-column="76" />
+        <state relative-caret-position="1320">
+          <caret line="66" column="53" lean-forward="true" selection-start-line="66" selection-start-column="53" selection-end-line="66" selection-end-column="53" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />

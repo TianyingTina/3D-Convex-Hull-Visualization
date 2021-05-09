@@ -49,14 +49,23 @@
         </div>
 
         <div class="w3-col m6 w3-padding-large">
-            <h1 class="w3-center">About 3-Dimensional Convex Hull</h1><br>
-            <h5 class="w3-center">From Wikipedia</h5>
-            <p class="w3-large">In geometry, the convex hull or convex envelope or convex closure of a shape is the smallest convex set that contains it. The convex hull may be defined either as the intersection of all convex sets containing a given subset of a Euclidean space, or equivalently as the set of all convex combinations of points in the subset. For a bounded subset of the plane, the convex hull may be visualized as the shape enclosed by a rubber band stretched around the subset.
-
-                  </p>
-            <p class="w3-large">Convex hulls of open sets are open, and convex hulls of compact sets are compact. Every compact convex set is the convex hull of its extreme points. The convex hull operator is an example of a closure operator, and every antimatroid can be represented by applying this closure operator to finite sets of points. The algorithmic problems of finding the convex hull of a finite set of points in the plane or other low-dimensional Euclidean spaces, and its dual problem of intersecting half-spaces, are fundamental problems of computational geometry. They can be solved in time O(nlog n) for two or three dimensional point sets.
+            <h1 class="w3-center">About This Project</h1><br>
+            <h5 class="w3-center">Tianying Tina Zhang</h5>
+            <p class="w3-large">Fully implement different algorithms by myself from blank to construct convex hulls in
+                3d space and visualize them.</p>
+            <p class="w3-large">Coding language: JavaScript</p>
+            <p class="w3-large">Visualization(library): Three.js</p>
+            <p class="w3-large">Resources:</p>
+            <p class="w3-large">Mark de Berg, Otfried Cheong, Marc van Kreveld, and Mark Overmars. 2008. Computational
+                Geometry: Algorithms and Applications (3rd ed. ed.). Springer-Verlag TELOS, Santa Clara, CA, USA.
             </p>
-                 </div>
+            <p class="w3-large">Gregorius, Dirk. Implementing QuickHull, 2014,
+                media.steampowered.com/apps/valve/2014/DirkGregorius_ImplementingQuickHull.pdf.
+            </p>
+            <p class="w3-large">How to creating a scene using Three.js: <a href="https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene">Three.js Documentation</a></p>
+
+            <p class="w3-large">Except as described above, all the work on this project is my own. Tianying Tina Zhang.</p>
+        </div>
     </div>
 
     <hr>
@@ -111,9 +120,11 @@
                 Second find the point that has the longest distance with the connected edge. These three points consist
                 first triangle/face of the initial tetrahedron.
                 Then recursively find CH(P1) and CH(P2) then merge them.
-                I met problem on merging the polygons so after initialize the first triangle face, I still use the dfs way.
-                In the algorithm side, it seems nothing improved, but in the visualization side, it saves a lot of rendering process.
-                </p>
+                I met problem on merging the polygons so after initialize the first triangle face, I still use the dfs
+                way.
+                In the algorithm side, it seems nothing improved, but in the visualization side, it saves a lot of
+                rendering process.
+            </p>
             <p class="w3-text-grey">The running time is O(n^2) but if a real quickhull can be O(nlogn)..</p>
             <p class="w3-text-grey">Data Structure: An array to store the points, an array to store the correct convex
                 hull triangles/faces, and a 2D array to store the edges.</p><br>
@@ -132,13 +143,15 @@
                 Obviously, the above three points is a surface on the convex hull.</p>
             <p class="w3-text-grey">gift "Wrapped":
                 The wrapping starts from any currently unclosed triangle edge. Select any of its unclosed edges,
-                and use that edge as a basis. Select a point from the remaining vertices so that the new face formed by the unclosed edge
+                and use that edge as a basis. Select a point from the remaining vertices so that the new face formed by
+                the unclosed edge
                 and the vertex is the same as the previously dependent face
                 The film angle is the smallest. Obviously, the face piece selected in this way is also the face on the
                 convex hull.</p>
             <p class="w3-text-grey">The running time is O(n*F).</p>
             <p class="w3-text-grey">Data Structure: An array to store the points, an array to store the correct convex
-                hull triangles/faces, and a queue to store the triangles which needed to be wrapped/not entirely closed.</p>
+                hull triangles/faces, and a queue to store the triangles which needed to be wrapped/not entirely
+                closed.</p>
         </div>
 
         <div class="w3-col l6 w3-padding-large">
@@ -153,8 +166,10 @@
         <h1>Contact</h1><br>
         <p>Tianying Tina Zhang</p>
         <p>tz1416@nyu.edu</p>
-        <p>Project Repository: <a href="http://github.com/TianyingTina/3DconvexHull">github.com/TianyingTina/3DconvexHull</a> </p>
-        <p class="w3-text-blue-grey w3-large"><b>New York University CS-GY 6703 Computational Geometry Final Project</b></p>
+        <p>Project Repository: <a href="http://github.com/TianyingTina/3DconvexHull">github.com/TianyingTina/3DconvexHull</a>
+        </p>
+        <p class="w3-text-blue-grey w3-large"><b>New York University CS-GY 6703 Computational Geometry Final Project</b>
+        </p>
 
     </div>
 
