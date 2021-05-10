@@ -71,9 +71,9 @@ function init(n){
 
 
     guiControl = new function(){
-        this.rotationSpeed = 0.001;
+        this.rotationSpeed = 0.00;
     };
-    item = gui.add(guiControl, 'rotationSpeed', 0,0.05);
+    item = gui.add(guiControl, 'rotationSpeed', 0,0.01);
 
     controls = new THREE.TrackballControls(camera, renderer.domElement);
     controls.minDistance = 20.0;
