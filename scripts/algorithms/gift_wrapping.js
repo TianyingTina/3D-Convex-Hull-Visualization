@@ -268,35 +268,3 @@ function sign(p1,p2,p3,p4){
         return "R";
     }
 }
-
-var my_plane = {
-    a: 0,
-    b: 0,
-    c: 0,
-    d: 0
-};
-function brute_force(){
-    var side = [];
-    result_triangles = [];
-    for(i = 0; i < points.length-2; i ++){
-        for (j = i+1; j < points.length-1;j ++){
-            for (k = j + 1; k < points.length;k ++){
-                if (!checkCollinear(points[i],points[j],points[k])){
-                    //test all of the other points
-                    for (l = 0; l < points.length; l ++){
-                        if (l !== i && l !== j && l !== k){
-                            side.push(sign(points[l],points[i],points[j],points[k]));
-                        }
-                    }
-                    var side_Set = new Set(side);
-                    if (Array.from(side_Set).length < 2){
-                        result_triangles.push([i,j,k]);
-                    }
-                    side = [];
-                }
-            }
-        }
-    }
-    return result_triangles;
-}
-console.log("brute force: ", brute_force());

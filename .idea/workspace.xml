@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afe07176-c022-463d-8b54-b0731e275bab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/algorithms/gift_wrapping.js" afterPath="$PROJECT_DIR$/scripts/algorithms/gift_wrapping.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,15 +32,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="180">
-                <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="bruteforce.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/algorithms/bruteforce.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#47#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gift_wrapping.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/algorithms/gift_wrapping.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1523">
+              <caret line="269" column="1" lean-forward="false" selection-start-line="269" selection-start-column="1" selection-end-line="269" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#46#0" expanded="false" />
+                <element signature="n#!!block;n#triangle_normal#0" expanded="false" />
+                <element signature="n#!!block;n#find_third_point#0" expanded="false" />
+                <element signature="n#!!block;n#vectorV#0" expanded="false" />
+                <element signature="n#!!block;n#swap_points#0" expanded="false" />
+                <element signature="n#!!block;n#find_first_point#0" expanded="false" />
+                <element signature="n#!!block;n#find_second_point#0" expanded="false" />
+                <element signature="n#!!block;n#dotProduct#0" expanded="false" />
+                <element signature="n#!!block;n#vlen#0" expanded="false" />
+                <element signature="n#!!block;n#checkCollinear#0" expanded="false" />
+                <element signature="n#!!block;n#cross#0" expanded="false" />
+                <element signature="n#!!block;n#equation_plane#0" expanded="false" />
+                <element signature="n#!!block;n#sign#0" expanded="false" />
+                <marker date="1620668070939" expanded="true" signature="3670:3999" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,6 +150,7 @@
         <option value="$PROJECT_DIR$/html/simplex_incremental_construction_animation.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/scripts/algorithms/gift_wrapping.js" />
       </list>
     </option>
   </component>
@@ -137,9 +161,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="25" />
+    <option name="x" value="-408" />
+    <option name="y" value="-1055" />
     <option name="width" value="1920" />
-    <option name="height" value="969" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -180,6 +205,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CGproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -353,20 +396,20 @@
       <workItem from="1619920622124" duration="3202000" />
       <workItem from="1620081525918" duration="62871000" />
       <workItem from="1620338644015" duration="8719000" />
-      <workItem from="1620593722886" duration="2924000" />
+      <workItem from="1620593722886" duration="5013000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122175000" />
+    <option name="totallyTimeSpent" value="124264000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="969" extended-state="6" />
+    <frame x="-408" y="-1055" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13954712" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06319115" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30887574" sideWeight="0.52606636" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2803437" sideWeight="0.52606636" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32781065" sideWeight="0.47393364" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -439,6 +482,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1320">
           <caret line="68" column="27" lean-forward="false" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -446,6 +492,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1300">
           <caret line="67" column="22" lean-forward="true" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+            <element signature="n#!!block;n#init_triangledict#0" expanded="false" />
+            <element signature="n#!!block;n#construct_states#0" expanded="false" />
+            <element signature="n#!!block;n#init#0" expanded="false" />
+            <element signature="n#!!block;n#dispose_current_scence#0" expanded="false" />
+            <element signature="n#!!block;n#addPlane#0" expanded="false" />
+            <element signature="n#!!block;n#addPoints#0" expanded="false" />
+            <element signature="n#!!block;n#drawTriangle#0" expanded="false" />
+            <element signature="n#!!block;n#drawTriangles#0" expanded="false" />
+            <element signature="n#!!block;n#animate#0" expanded="false" />
+            <element signature="n#!!block;n#triangles#0" expanded="false" />
+            <element signature="n#!!block;n#dotProduct#0" expanded="false" />
+            <element signature="n#!!block;n#cross#0" expanded="false" />
+            <element signature="n#!!block;n#vectorV#0" expanded="false" />
+            <element signature="n#!!block;n#checkCollinear#0" expanded="false" />
+            <element signature="n#!!block;n#equation_plane#0" expanded="false" />
+            <element signature="n#!!block;n#sign#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -469,6 +534,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -486,6 +554,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -537,6 +608,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
           <caret line="200" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -544,13 +618,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2798">
           <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="64" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/algorithms/bruteforce.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -566,6 +634,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
           <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+            <element signature="n#!!block;n#init_triangledict#0" expanded="false" />
+            <element signature="n#!!block;n#construct_states#0" expanded="false" />
+            <element signature="n#!!block;n#init#0" expanded="false" />
+            <element signature="n#!!block;n#dispose_current_scence#0" expanded="false" />
+            <element signature="n#!!block;n#addPlane#0" expanded="false" />
+            <element signature="n#!!block;n#addPoints#0" expanded="false" />
+            <element signature="n#!!block;n#drawTriangle#0" expanded="false" />
+            <element signature="n#!!block;n#drawTriangles#0" expanded="false" />
+            <element signature="n#!!block;n#animate#0" expanded="false" />
+            <element signature="n#!!block;n#triangles#0" expanded="false" />
+            <element signature="n#!!block;n#dotProduct#0" expanded="false" />
+            <element signature="n#!!block;n#cross#0" expanded="false" />
+            <element signature="n#!!block;n#vectorV#0" expanded="false" />
+            <element signature="n#!!block;n#checkCollinear#0" expanded="false" />
+            <element signature="n#!!block;n#equation_plane#0" expanded="false" />
+            <element signature="n#!!block;n#sign#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -647,6 +734,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1309">
           <caret line="138" column="42" lean-forward="false" selection-start-line="138" selection-start-column="42" selection-end-line="138" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -674,13 +762,6 @@
             <element signature="n#!!block;n#swap_points#0" expanded="false" />
             <element signature="n#!!block;n#unique#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/algorithms/gift_wrapping.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2025">
-          <caret line="301" column="44" lean-forward="true" selection-start-line="301" selection-start-column="44" selection-end-line="301" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -769,11 +850,44 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="180">
-            <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <first_editor relative-caret-position="260">
+            <caret line="13" column="91" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="91" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/algorithms/bruteforce.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/algorithms/gift_wrapping.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1523">
+          <caret line="269" column="1" lean-forward="false" selection-start-line="269" selection-start-column="1" selection-end-line="269" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#46#0" expanded="false" />
+            <element signature="n#!!block;n#triangle_normal#0" expanded="false" />
+            <element signature="n#!!block;n#find_third_point#0" expanded="false" />
+            <element signature="n#!!block;n#vectorV#0" expanded="false" />
+            <element signature="n#!!block;n#swap_points#0" expanded="false" />
+            <element signature="n#!!block;n#find_first_point#0" expanded="false" />
+            <element signature="n#!!block;n#find_second_point#0" expanded="false" />
+            <element signature="n#!!block;n#dotProduct#0" expanded="false" />
+            <element signature="n#!!block;n#vlen#0" expanded="false" />
+            <element signature="n#!!block;n#checkCollinear#0" expanded="false" />
+            <element signature="n#!!block;n#cross#0" expanded="false" />
+            <element signature="n#!!block;n#equation_plane#0" expanded="false" />
+            <element signature="n#!!block;n#sign#0" expanded="false" />
+            <marker date="1620668070939" expanded="true" signature="3670:3999" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
